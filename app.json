@@ -1,15 +1,15 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/logs/logs",
-    "pages/base/base",
-    "pages/button/button"
+    "pages/comp/comp",
+    "pages/element/element",
+    "pages/element/list/list",
+    "pages/element/button/button",
+    "pages/about/about"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationStyle": "custom",
+    "navigationBarBackgroundColor": "#08C261",
+    "navigationBarTitleText": "",
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
@@ -19,22 +19,22 @@
     "backgroundColor": "#ffffff",
     "list": [
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/element/element",
         "iconPath": "/images/tabbar/basics.png",
         "selectedIconPath": "/images/tabbar/basics_cur.png",
-        "text": "基础组件"
+        "text": "元素"
       },
       {
-        "pagePath": "pages/base/base",
+        "pagePath": "pages/comp/comp",
         "iconPath": "/images/tabbar/component.png",
         "selectedIconPath": "/images/tabbar/component_cur.png",
-        "text": "交互组件"
+        "text": "组件"
       },
       {
-        "pagePath": "pages/logs/logs",
+        "pagePath": "pages/about/about",
         "iconPath": "/images/tabbar/about.png",
         "selectedIconPath": "/images/tabbar/about_cur.png",
-        "text": "个人中心"
+        "text": "关于"
       }
     ]
   },

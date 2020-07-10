@@ -1,3 +1,0 @@
-<!--pages/base/base.wxml-->
-<le-custom-bar title="{{'基础组件'}}" show-navigator="{{true}}" type="{{1}}"></le-custom-bar>
-<le-cell></le-cell>

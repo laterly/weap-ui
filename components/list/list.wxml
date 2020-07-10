@@ -1,0 +1,16 @@
+<!--list.wxml-->
+<view class="list">
+    <view class="left" wx:if="{{leftIcon}}">
+        <image class="left-img" src="{{leftIcon}}" mode="aspectFit"/>
+    </view>
+    <view class="center">
+        <view class="center-title">
+            {{title}}
+        </view>
+        <view class="center-right">
+            <text>{{label}}</text>
+            <image class="right-icon" src="{{rightIcon}}" mode="aspectFit" wx:if="{{isLink}}"/>
+        </view>
+    </view>
+    
+</view>

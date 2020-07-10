@@ -1,0 +1,20 @@
+<!--list.wxml-->
+<view class="app-title">List 列表</view>
+<view class="list">
+    <list title="列表"></list>
+</view>
+<view class="list">
+    <list title="列表带描述" label="描述"></list>
+</view>
+<view class="list">
+    <list title="列表带箭头" is-link="{{true}}"></list>
+</view>
+<view class="list">
+    <list title="列表带描述和箭头" label="描述" is-link="{{true}}"></list>
+</view>
+<view class="list">
+    <list title="列表左边Icon图标自定义" label="描述" is-link="{{true}}" left-icon="/images/bottom-icon2.png"></list>
+</view>
+<view class="list">
+    <list title="列表右边Icon图标自定义" label="描述" is-link="{{true}}" right-icon="/images/red-arrow.png"></list>
+</view>

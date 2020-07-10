@@ -1,0 +1,23 @@
+/* button.wxss */
+.button{
+    width:100%;
+    height:88rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:rgba(8,194,97,1);
+    border-radius:5px; 
+}
+.default-btn {
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    background-color: transparent;
+}
+  
+.default-btn::after {
+    border: none;
+    padding: 0;
+    margin: 0;
+    background: none;
+  }

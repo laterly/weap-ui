@@ -1,0 +1,4 @@
+<!--button.wxml-->
+<button class="button default-btn" disabled="{{isDisabled}}" open-type="{{openType}}" catchtap="click">
+    <slot></slot>
+</button>

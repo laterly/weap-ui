@@ -1,4 +1,4 @@
-// pages/base/base.js
+// about.js
 Page({
 
   /**

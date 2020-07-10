@@ -1,0 +1,5 @@
+/* list.wxss */
+
+.list{
+    margin-top: 25rpx;
+}

@@ -1,8 +1,0 @@
-{
-  "usingComponents": {
-    "le-custom-bar": "/components/custom-bar/index",
-    "le-icon": "/components/icon/index",
-    "le-cell": "/components/cell/index"
-  },
-  "navigationStyle": "custom"
-}

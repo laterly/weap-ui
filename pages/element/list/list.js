@@ -1,14 +1,11 @@
-// pages/button/button.js
+// list.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    type:{
-      type:String,
-      value:''
-    }
+
   },
 
   /**
@@ -17,9 +14,7 @@ Page({
   onLoad: function (options) {
 
   },
-  click(){
-    console.log('zzz');
-  },
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

@@ -104,57 +104,23 @@ page {
   height: 100%;
 }
 
-.app-page {
-  box-sizing: border-box;
-}
-.app-box{
-  background-color: #fff;
-  padding: 0 10px;
-  padding-bottom: 10px;
-  margin-top: 10px;
-}
 .app-title {
-  padding: 10px 0;
+  height: 100rpx;
+  background-color: #fff;
+  font-size: 30rpx;
+  color: rgba(0, 0, 0, 1);
+  align-items: center;
+  display: flex;
+  padding-left: 40rpx;
   position: relative;
-  text-indent: 20px;
 }
-
-.app-title::before {
-  content: '';
+.app-title::before{
   position: absolute;
-  width: 8px;
-  height: 8px;
-  border-radius: 100%;
-  border:2px #1387ae solid;
-  left: 0;
+  content: "";
+  width: 8rpx;
+  height: 30rpx;
+  background-color: #08C261;
+  left: 20rpx;
   top: 50%;
   transform: translateY(-50%);
-}
-
-@keyframes show {
-  0% {
-    transform: translateY(-50px);
-  }
-
-  60% {
-    transform: translateY(40rpx);
-  }
-
-  100% {
-    transform: translateY(0px);
-  }
-}
-
-@-webkit-keyframes show {
-  0% {
-    transform: translateY(-50px);
-  }
-
-  60% {
-    transform: translateY(40rpx);
-  }
-
-  100% {
-    transform: translateY(0px);
-  }
 }
