@@ -1,0 +1,160 @@
+/**app.wxss**/
+
+page {
+  font-size: 14px;
+  color: #333;
+  background-color: #EFF1F0;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex1 {
+  box-flex: 1;
+  flex: 1;
+}
+
+.flex2 {
+  box-flex: 2;
+  flex: 2;
+}
+
+.flex3 {
+  box-flex: 3;
+  flex: 3;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.flex-row {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-elli {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.clear {
+  clear: both;
+  height: 0;
+  overflow: hidden;
+}
+
+.clearfix {
+  zoom: 1;
+  clear: both;
+}
+
+.clearfix:after {
+  display: block;
+  height: 0;
+  overflow: hidden;
+  content: " ";
+  visibility: hidden;
+  clear: both;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.img-responsive {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.rel {
+  position: relative;
+}
+
+.abs {
+  position: absolute;
+}
+
+.height100 {
+  height: 100%;
+}
+
+.app-page {
+  box-sizing: border-box;
+}
+.app-box{
+  background-color: #fff;
+  padding: 0 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+.app-title {
+  padding: 10px 0;
+  position: relative;
+  text-indent: 20px;
+}
+
+.app-title::before {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  border:2px #1387ae solid;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@keyframes show {
+  0% {
+    transform: translateY(-50px);
+  }
+
+  60% {
+    transform: translateY(40rpx);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@-webkit-keyframes show {
+  0% {
+    transform: translateY(-50px);
+  }
+
+  60% {
+    transform: translateY(40rpx);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}

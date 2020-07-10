@@ -1,0 +1,40 @@
+<!--pages/button/button.wxml-->
+<le-custom-bar title="Button 按钮" show-navigator="{{true}}" type="{{1}}"></le-custom-bar>
+<view class='app-page'>
+  <view class='app-box'>
+    <view class='app-title'>普通按钮</view>
+    <le-button>普通按钮</le-button>
+    <le-button type='primary' bind:onClick="click">主要按钮</le-button>
+    <le-button type='info'>信息按钮</le-button>
+    <le-button type='warning'>警告按钮</le-button>
+    <le-button type='danger'>错误按钮</le-button>
+    <le-button type='dark'>置灰按钮</le-button>
+  </view>
+  <view class='app-box'>
+    <view class='app-title'>镂空按钮</view>
+    <le-button plain type='primary'>主要按钮</le-button>
+    <le-button plain type='info'>信息按钮</le-button>
+  </view>
+  <view class='app-box'>
+    <view class='app-title'>按钮形状</view>
+    <le-button square type='primary'>方形按钮</le-button>
+    <le-button round type='info'>圆形按钮</le-button>
+  </view>
+  <view class='app-box'>
+    <view class='app-title'>禁用按钮</view>
+    <le-button disabled type='primary' bind:onClick="click">禁用主要按钮</le-button>
+    <le-button disabled type='info'>禁用信息按钮</le-button>
+  </view>
+  <view class='app-box'>
+    <view class='app-title'>按钮尺寸</view>
+    <le-button size="large" type='primary'>大号按钮</le-button>
+    <le-button size="small" type='primary'>小型按钮</le-button>
+    <le-button size="mini" type='primary'>迷你按钮</le-button>
+  </view>
+  <view class='app-box'>
+    <view class='app-title'>阴影按钮</view>
+    <le-button shadow type='primary'>主要按钮</le-button>
+    <le-button shadow type='info'>信息按钮</le-button>
+    <le-button shadow type='warning'>警告按钮</le-button>
+  </view>
+</view>

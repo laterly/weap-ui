@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "le-custom-bar":"/components/custom-bar/index",
+    "le-icon": "/components/icon/index",
+    "le-button": "/components/button/index",
+    "le-wave": "/components/wave/index"
+  },
+  "navigationStyle": "custom"
+}

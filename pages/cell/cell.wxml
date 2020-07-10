@@ -1,0 +1,2 @@
+<!--pages/cell/cell.wxml-->
+<le-custom-bar title="Cell 单元格" show-navigator="{{true}}" type="{{1}}"></le-custom-bar>

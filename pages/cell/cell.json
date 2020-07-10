@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "le-custom-bar": "/components/custom-bar/index"
+  }
+}
