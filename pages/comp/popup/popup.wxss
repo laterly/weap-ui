@@ -1,0 +1,8 @@
+/* pages/comp/popup/popup.wxss */
+.button{
+  margin-top:40rpx;
+}
+.content{
+  width:400rpx;
+  height: 80vh;
+}

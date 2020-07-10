@@ -1,0 +1,7 @@
+<!--components/popup/popup.wxml-->
+<view class="popup {{ visible ? 'popup-show' : '' }} {{ 'popup-' + mode }}">
+    <view wx:if="{{ mask }}" class="popup-mask" bindtap="handleMaskClick"></view>
+    <view class="popup-container">
+        <slot></slot>
+    </view>
+</view>

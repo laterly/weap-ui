@@ -1,0 +1,8 @@
+<!--pages/comp/popup/popup.wxml-->
+<view class="app-title">Popup 弹出层</view>
+<view class="button">
+  <w-button round bind:click="openPopup" data-mode="right">从右边弹出</w-button>
+</view>
+<popup visible="{{isRight}}" bind:close="close" position="bottom">
+  <view class="content">111</view>
+</popup>

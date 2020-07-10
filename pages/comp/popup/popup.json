@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "popup":"/components/popup/popup",
+    "w-button":"/components/w-button/w-button"
+  }
+}
