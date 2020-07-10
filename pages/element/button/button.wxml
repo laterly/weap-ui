@@ -1,2 +1,20 @@
 <!--button.wxml-->
-<w-button>按钮</w-button>
+<view class="app-title">Button 按钮</view>
+<view class="button">
+  <w-button>默认按钮</w-button>
+</view>
+<view class="button">
+  <w-button type="secondary">次要按钮</w-button>
+</view>
+<view class="button">
+  <w-button is-loading="{{true}}">加载按钮</w-button>
+</view>
+<view class="button">
+  <w-button round type="secondary">圆形按钮</w-button>
+</view>
+<view class="button" style="padding:0 300rpx">
+  <w-button size="small">中号按钮</w-button>
+</view>
+<view class="button" style="padding:0 300rpx">
+  <w-button size="mini">迷你按钮</w-button>
+</view>
