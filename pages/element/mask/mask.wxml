@@ -1,0 +1,17 @@
+<!--pages/element/mask/mask.wxml-->
+<!--pages/comp/popup/popup.wxml-->
+<view class="app-title">Mask 遮罩层</view>
+<view class="mask">
+  <w-button round shadow bind:click="openPopup1">弹出遮罩</w-button>
+</view>
+<view class="mask">
+  <w-button round shadow bind:click="openPopup2">弹出透明遮罩</w-button>
+</view>
+<mask show="{{show1}}" bind:close="close1"></mask>
+<mask show="{{show2}}" transparent bind:close="close2"></mask>
+
+
+
+
+
+

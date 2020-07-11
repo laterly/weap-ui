@@ -1,0 +1,2 @@
+<!--components/mask/mask.wxml-->
+<view class="mask-wrap" wx:if="{{show}}" style="background:{{transparent?'transparent':maskColor}} z-index: {{zIndex}};"  bindtap="clickModal" catchtouchmove="preventD"></view>

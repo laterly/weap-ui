@@ -6,7 +6,8 @@
     "pages/element/button/button",
     "pages/about/about",
     "pages/comp/dialog/dialog",
-    "pages/comp/tab/tab"
+    "pages/comp/tab/tab",
+    "pages/element/mask/mask"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -15,8 +16,8 @@
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
-    "color": "#aaa",
-    "selectedColor": "#1387AE",
+    "color": "#333333",
+    "selectedColor": "#08C261",
     "borderStyle": "black",
     "backgroundColor": "#ffffff",
     "list": [

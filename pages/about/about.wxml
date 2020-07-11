@@ -1,2 +1,15 @@
-<!--about.wxml-->
-<text>about.wxml</text>
+<!--element.wxml-->
+<view class="comp">
+    <view class="comp-top">
+        <view class="page_title">
+            <view class="comp-title">
+                Weapp UI
+                <view class="tui-badge">v1.0.0</view>
+            </view>
+        </view>
+        <view class="page_desc">一套小程序原生组件库UI</view>
+    </view>
+    <view class="comp-content">
+        <view class="comp-content-title">关于</view>
+    </view>
+</view>

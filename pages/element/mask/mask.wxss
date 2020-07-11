@@ -1,0 +1,5 @@
+/* pages/element/mask/mask.wxss */
+.mask{
+  margin-top: 25rpx;
+  padding: 0 40rpx;
+}

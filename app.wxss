@@ -124,3 +124,6 @@ page {
   top: 50%;
   transform: translateY(-50%);
 }
+.mt25{
+  margin-top: 25rpx;
+}

@@ -1,19 +1,48 @@
-// element.js
+// pages/element/mask/mask.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    show1:false,
+    show2:false
   },
-  toPage(e){
-    const {
-      page
-    }=e.currentTarget.dataset;
-    wx.navigateTo({
-      url: page
-    });
+  openPopup1(){
+    wx.showToast({
+      title: '打开遮罩',
+      icon:'none'
+    })
+    this.setData({
+      show1:true
+    })
+  },
+  openPopup2(){
+    wx.showToast({
+      title: '打开遮罩',
+      icon:'none'
+    })
+    this.setData({
+      show2:true
+    })
+  },
+  close1(){
+    this.setData({
+      show1:false
+    })
+    wx.showToast({
+      title: '关闭遮罩',
+      icon:'none'
+    })
+  },
+  close2(){
+    this.setData({
+      show2:false
+    })
+    wx.showToast({
+      title: '关闭遮罩',
+      icon:'none'
+    })
   },
   /**
    * 生命周期函数--监听页面加载
