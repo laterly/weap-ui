@@ -1,0 +1,15 @@
+<!--components/dialog/dialog.wxml-->
+<popup visible="{{show}}" bind:close="close" mode="middle" close-on-click-modal="{{closeOnClickModal}}">
+ <view class="reject-popup">
+        <view class="reject-title" wx:if="{{showTitle}}">{{title}}</view>
+        <view class="reject-des" wx:if="{{showDesc}}">{{desc}}</view>
+        <view class="reject-input-box">
+            {{content}}
+            <slot wx:if='{{showSlot}}'></slot>
+        </view>
+        <view class="reject-btn-box">
+            <view class="reject-btn reject-close" catchtap="close" wx:if="{{showCancel}}">{{cancelText}}</view>
+            <view class="reject-btn reject-sure" catchtap="sure" wx:if="{{showConfirm}}">{{confirmText}}</view>
+        </view>
+    </view>
+</popup>

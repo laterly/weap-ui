@@ -1,0 +1,78 @@
+/* components/dialog/dialog.wxss */
+.reject-popup {
+  width: 600rpx;
+  height: auto;
+  background: #fff;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 0 50rpx 56rpx;
+  margin: 0 auto;
+  overflow: hidden
+}
+
+.reject-popup .reject-des,
+.reject-popup .reject-title {
+  font-size: 32rpx;
+  font-weight: 400;
+  text-align: center;
+  color: #333333;
+  margin-top: 50rpx
+}
+
+.reject-popup .reject-des {
+  font-size: 30rpx;
+  color: #999999;
+  margin-top: 10rpx
+}
+
+.reject-popup .reject-btn-box,
+.reject-popup .reject-input-box {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between
+}
+
+.reject-popup .reject-input-box {
+  margin-top: 35rpx;
+  display: flex;
+  justify-content: center;
+  font-size: 30rpx;
+  font-weight: 400;
+}
+
+.reject-popup .reject-btn-box {
+  margin-top: 34rpx
+}
+.reject-popup .reject-btn-box .reject-btn {
+  height: 88rpx;
+  line-height: 88rpx;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 32rpx;
+  font-weight: 400;
+  flex:1;
+}
+.reject-popup .reject-btn-box .reject-btn:nth-child(2){
+  margin-left: 24rpx;
+}
+
+.reject-popup .reject-btn-box .reject-close {
+  color: #08C261;
+  background: #f7f7f7
+}
+
+.reject-popup .reject-btn-box .reject-sure {
+  color: #fff;
+  background: #08C261
+}
+
+.flex1 {
+  flex: 1
+}
+
+.input-placeholder {
+  font-size: 32rpx;
+  font-weight: 400;
+  color: #999999
+}

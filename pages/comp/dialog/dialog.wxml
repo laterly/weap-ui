@@ -1,0 +1,29 @@
+<!--pages/comp/dialog/dialog.wxml-->
+<view class="app-title">Dialog 弹出框</view>
+<view class="button">
+	<w-button round shadow bind:click="openPopup" data-mode="1">普通弹出框</w-button>
+</view>
+<view class="button">
+	<w-button round shadow bind:click="openPopup" data-mode="2">无标题弹出框</w-button>
+</view>
+<view class="button">
+	<w-button round shadow bind:click="openPopup" data-mode="3">确认弹出框</w-button>
+</view>
+<view class="button">
+	<w-button round shadow bind:click="openPopup" data-mode="4">标题描述弹出框</w-button>
+</view>
+<view class="button">
+	<w-button round shadow bind:click="openPopup" data-mode="5">自定义插槽弹出框</w-button>
+</view>
+<!--1普通弹出框-->
+<dialog show="{{show1}}" title="普通弹出框标题" content="普通弹出框内容" bind:confirm="confirm" bind:close="close"></dialog>
+<!--2无标题弹出框-->
+<dialog show="{{show2}}" show-title="{{false}}" content="无标题弹出框内容" bind:confirm="confirm" bind:close="close"></dialog>
+<!--3确认弹出框-->
+<dialog show="{{show3}}" bind:close="close" title="确认弹出框标题" content="确认弹出框内容" show-cancel="{{false}}" bind:confirm="confirm"></dialog>
+<!--4标题描述弹出框-->
+<dialog show="{{show4}}" show-desc="{{true}}" desc="这里是描述" title="标题描述弹出框" content="标题描述弹出框内容" bind:confirm="confirm" bind:close="close"></dialog>
+<!--5自定义插槽弹出框-->
+<dialog show="{{show5}}" show-desc="{{true}}" show-slot="{{true}}" desc="这里是描述" title="自定义内容弹出框" bind:confirm="confirm" bind:close="close">
+<view><switch checked="{{switch1Checked}}" bindchange="switch1Change"/></view>
+</dialog>

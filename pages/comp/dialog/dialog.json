@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "w-button":"/components/w-button/w-button",
+    "dialog":"/components/dialog/dialog"
+  }
+}

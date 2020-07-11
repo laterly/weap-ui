@@ -1,0 +1,5 @@
+/* pages/comp/dialog/dialog.wxss */
+.button{
+  margin-top:40rpx;
+  padding: 0 40rpx;
+}
