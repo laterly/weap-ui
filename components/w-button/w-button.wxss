@@ -44,3 +44,7 @@
     height: 25px!important;
     font-size: 12px!important;
   }
+
+  .button.shadow {
+    box-shadow: 6rpx 6rpx 8rpx rgba(8,194,97, 0.2);
+  }

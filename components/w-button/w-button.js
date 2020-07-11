@@ -2,8 +2,9 @@
 /**
  * Button按钮
  * isDisabled 是否禁止点击
- * 
- * 
+ * size small mini
+ * type secondary
+ * shadow 是否需要阴影
  */
 Component({
   /**
@@ -34,6 +35,10 @@ Component({
       type:String,
       value:''
     },
+    shadow:{
+      type:Boolean,
+      value:false
+    }
   },
 
   /**

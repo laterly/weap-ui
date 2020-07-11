@@ -1,8 +1,53 @@
 <!--pages/comp/popup/popup.wxml-->
 <view class="app-title">Popup 弹出层</view>
 <view class="button">
-  <w-button round bind:click="openPopup" data-mode="right">从右边弹出</w-button>
+  <w-button round shadow bind:click="openPopup" data-mode="bottom">从底部弹出</w-button>
 </view>
-<popup visible="{{isRight}}" bind:close="close" position="bottom">
-  <view class="content">111</view>
+<view class="button">
+  <w-button round shadow bind:click="openPopup" data-mode="left">从左边弹出</w-button>
+</view>
+<view class="button">
+  <w-button round shadow bind:click="openPopup" data-mode="right">从右边弹出</w-button>
+</view>
+<view class="button">
+  <w-button round shadow bind:click="openPopup" data-mode="middle">从中间弹出</w-button>
+</view>
+
+<!--底部-->
+<popup visible="{{bottom}}" bind:close="close" mode="bottom">
+  <view class="content bottom-content">
+    <view class="content-button">
+      <w-button size="small" type="secondary" round  bind:click="close">关闭弹出层</w-button>
+    </view>
+  </view>
 </popup>
+
+<!--左边-->
+<popup visible="{{left}}" bind:close="close" mode="left">
+  <view class="content left-content">
+    <view class="content-button">
+      <w-button size="small" type="secondary" round  bind:click="close">关闭弹出层</w-button>
+    </view>
+  </view>
+</popup>
+
+
+<!--右边-->
+<popup visible="{{right}}" is-watch="{{true}}" bind:close="close" mode="right">
+ <view class="content right-content">
+    <view class="content-button">
+      <w-button size="small" type="secondary" round  bind:click="close">关闭弹出层</w-button>
+    </view>
+  </view>
+</popup>
+
+
+<!--中间-->
+<popup visible="{{middle}}" is-watch="{{true}}" bind:close="close" mode="middle">
+  <view class="content middle-content">
+    <view class="content-button">
+      <w-button size="small" type="secondary" round  bind:click="close">关闭弹出层</w-button>
+    </view>
+  </view>
+</popup>
+

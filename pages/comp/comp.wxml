@@ -13,5 +13,6 @@
         <view class="comp-content-title">组件库演示</view>
         <list title="List 列表" is-link="{{true}}" left-icon="/images/bottom-icon2.png" data-page="/pages/element/list/list" catchtap="toPage"></list>
         <list title="Button 按钮" is-link="{{true}}" left-icon="/images/button-icon.png" data-page="/pages/element/button/button" catchtap="toPage"></list>
+        <list title="Popup 弹出层" is-link="{{true}}" left-icon="/images/op_copy.png" data-page="/pages/comp/popup/popup" catchtap="toPage"></list>
     </view>
 </view>

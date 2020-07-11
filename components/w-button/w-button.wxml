@@ -1,4 +1,4 @@
 <!--button.wxml-->
-<button  class="button default default-btn {{type}} {{round?'round':''}} {{size}}" open-type="{{openType}}" loading="{{isLoading}}" disabled="{{isDisabled}}" open-type="{{openType}}" catchtap="click">
+<button  class="button default default-btn {{type}} {{round?'round':''}} {{size}} {{shadow?'shadow':''}}" open-type="{{openType}}" loading="{{isLoading}}" disabled="{{isDisabled}}" open-type="{{openType}}" catchtap="click">
     <slot></slot>
 </button>

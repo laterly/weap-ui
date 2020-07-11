@@ -1,7 +1,9 @@
-<!--components/popup/popup.wxml-->
-<view class="popup {{ visible ? 'popup-show' : '' }} {{ 'popup-' + mode }}">
-    <view wx:if="{{ mask }}" class="popup-mask" bindtap="handleMaskClick"></view>
-    <view class="popup-container">
-        <slot></slot>
-    </view>
+<view 
+class="popup-class popup-wrap" 
+style="z-index: {{zIndex}};" hidden="{{!showHide}}"
+>
+	<view class="shadow popup-wrap {{shadowTransName}}" style="{{'background:'+shadowColor}}" hidden="{{!modal}}" bindtap="clickModal" catchtouchmove="preventD"></view>
+	<view class="popup-content {{mode=='bottom'?'width100':''}} {{mode}} {{popTransName}}" catchtap="clickModal">
+		<slot catchtap="preventD"></slot>
+	</view>
 </view>

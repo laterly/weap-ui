@@ -1,65 +1,230 @@
-/* components/popup/popup.wxss */
-.popup {
-  visibility: hidden;
+.width-100 {
+  width: 100%;
 }
-
-.popup-show {
-  visibility: visible;
-}
-
-.popup-show .popup-mask {
-  display: block;
-  opacity: 1;
-}
-
-.popup-show .popup-container {
-  opacity: 1;
-}
-
-.popup-show.popup-left .popup-container,
-.popup-show.popup-right .popup-container {
-  transform: translate3d(0, -50%, 0);
-}
-
-.popup-mask {
-  opacity: 0;
+.popup-wrap {
   position: fixed;
   top: 0;
   left: 0;
-  right: 0;
   bottom: 0;
-  z-index: 8888;
-  background: rgba(0, 0, 0, 0.4);
-  transition: all 0.3s ease-in-out;
-}
-
-.popup-container {
-  position: fixed;
-  left: 50%;
-  height: 100%;
-  top: 0;
-  transform: translate3d(-50%, -50%, 0);
-  transform-origin: center;
-  transition: all 0.3s ease-in-out;
-  z-index: 99999;
-  opacity: 0;
-  overflow-y: scroll;
-  background: #fff;
-  -webkit-overflow-scrolling: touch;
-  -ms-touch-action: pan-y cross-slide-y;
-  -ms-scroll-chaining: none;
-  -ms-scroll-limit: 0 50 0 50;
-}
-
-.popup-left .popup-container {
-  left: 0;
-  top: 50%;
-  transform: translate3d(-100%, -50%, 0);
-}
-
-.popup-right .popup-container {
   right: 0;
+}
+.popup-content {
+  position: fixed;
+  width: auto;
+}
+.width100{
+  width: 100%;
+}
+.bg-f {
+  background: #fff;
+}
+.top {
+  top: 0;
+  left: 0;
+}
+.middle {
+  left: 50%;
   top: 50%;
-  left: auto;
-  transform: translate3d(100%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+}
+.bottom {
+  bottom: 0;
+  left: 0;
+}
+.right {
+  top: 0;
+  right: 0;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.left-enter-animated {
+  animation: leftEenter 0.4s;
+}
+
+.left-leave-animated {
+  animation: leftLeave 0.4s;
+}
+
+.top-enter-animated {
+  animation: topEenter 0.4s;
+}
+
+.top-leave-animated {
+  animation: topLeave 0.4s;
+}
+.bottom-enter-animated {
+  animation: bottomEenter 0.4s;
+}
+
+.bottom-leave-animated {
+  animation: bottomLeave 0.4s;
+}
+
+.middle-enter-animated {
+  animation: middleEnter 0.4s;
+}
+.middle-leave-animated {
+  animation: middleLeave 0.4s;
+}
+
+.center-enter-animated {
+  animation: centerEnter 0.4s;
+}
+.center-leave-animated {
+  animation: centerLeave 0.4s;
+}
+
+.right-enter-animated {
+  animation: rightEnter 0.4s;
+}
+.right-leave-animated {
+  animation: rightLeave 0.4s;
+}
+
+.showdow-enter {
+  animation: shadowEeter 0.4s;
+}
+.showdow-leave {
+  animation: shadowLeave 0.4s;
+}
+
+@keyframes leftEenter {
+  from {
+    transform: translate3d(-100%, 0, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes leftLeave {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes topEenter {
+  from {
+    transform: translate3d(0, -100%, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes topLeave {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+@keyframes bottomEenter {
+  from {
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes bottomLeave {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(0, 100%, 0);
+  }
+}
+
+@keyframes middleEnter {
+  from {
+    opacity: 0;
+    transform: translate3d(-50%, -50%, 0) scale(0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(-50%, -50%, 0) scale(1, 1);
+  }
+}
+@keyframes middleLeave {
+  from {
+    opacity: 1;
+    transform: translate3d(-50%, -50%, 0) scale(1, 1);
+  }
+
+  to {
+    opacity: 0;
+    transform: translate3d(-50%, -50%, 0) scale(0, 0);
+  }
+}
+
+@keyframes centerEnter {
+  from {
+    opacity: 0;
+    transform: scale(0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1, 1);
+  }
+}
+@keyframes centerLeave {
+  from {
+    opacity: 1;
+    transform: scale(1, 1);
+  }
+
+  to {
+    opacity: 0;
+    transform: scale(0, 0);
+  }
+}
+
+@keyframes rightEnter {
+  from {
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes rightLeave {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+@keyframes shadowEeter {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes shadowLeave {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }

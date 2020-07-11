@@ -6,7 +6,10 @@ Page({
    */
   data: {
     left:false,
-    isRight:false
+    right:false,
+    bottom:false,
+    middle:false,
+    center:false
   },
 
   /**
@@ -20,15 +23,22 @@ Page({
     const {
       mode
     }=e.currentTarget.dataset;
-    if(mode=="right"){
-      this.setData({
-        isRight:true
-      })
-    }
+    this.setData({
+      [`${mode}`]:mode
+    })
   },
   close(){
     this.setData({
-      isRight:false
+      bottom:false
+    });
+    this.setData({
+      left:false
+    });
+    this.setData({
+      right:false
+    });
+    this.setData({
+      middle:false
     });
   },
   /**
