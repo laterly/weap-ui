@@ -1,0 +1,17 @@
+<!-- tab.wxml -->
+<view class="tab-bar-box" wx:if="{{type=='defalut'}}">
+    <view class="tab-bar">
+        <view class="tab-item {{index==active?'active':''}}" wx:for='{{tabs}}' wx:key='index' data-index='{{index}}' bindtap="changeTab" >
+            <view class="tab-text {{index==active?'active':''}}">
+                {{item}}
+            </view>
+        </view>
+    </view>
+</view>
+<view class="classify-section" wx:if="{{type=='scroll'}}">
+    <scroll-view scroll-x="true" enable-flex="{{true}}" scroll-left="{{scrollLeft}}" scroll-with-animation="true" class="scroll-view">
+    <view class="classify-list" wx:for="{{tabs}}"  wx:key="index" data-index="{{index}}" bindtap="toCategory">
+        <view class="{{index === classifyActiveIndex? 'active' : ''}} tab-text">{{item}}</view>
+    </view>
+  </scroll-view>
+</view>

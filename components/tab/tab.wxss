@@ -1,0 +1,113 @@
+/* tab.wxss */
+.tab-bar-box {
+    height: 88rpx;
+    margin: 5rpx auto 0;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.tab-right {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    color: #999;
+    font-size: 32rpx;
+    padding-bottom: 8rpx;
+    box-sizing: border-box;
+}
+
+.tab-bar {
+    background: #fff;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.tab-bar-box .tab-right {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    color: #999;
+    font-size: 32rpx;
+    padding-bottom: 8rpx;
+    box-sizing: border-box;
+}
+
+.select-icon {
+
+    height: 28rpx;
+    display: block;
+    padding-top: 2rpx;
+    margin-right: 3rpx;
+
+}
+
+.tab-bar .tab-item.active {
+    color: #08c261;
+    font-weight: 700;
+}
+
+.tab-text {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-bottom: 8rpx solid #fff;
+    height: 100%;
+}
+
+.tab-text.active {
+    border-bottom: 8rpx solid #08c261;
+    color: #08c261;
+    font-weight: 700;
+}
+
+.tab-bar .tab-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32rpx;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #999;
+    flex-direction: column;
+    height: 100%;
+}
+
+.classify-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30rpx;
+    box-sizing: border-box;
+    color: #999;
+    position: relative;
+    white-space: nowrap;
+    background: #fff;
+}
+
+.scroll-view {
+    height: 88rpx;
+}
+
+.classify-section .classify-list {
+    display: inline-block;
+    overflow-x: scroll;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 100%;
+    min-width: 160rpx;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    color: transparent;
+}

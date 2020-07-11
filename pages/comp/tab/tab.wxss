@@ -1,0 +1,4 @@
+/* tab.wxss */
+.tab{
+  margin-top:40rpx;
+}

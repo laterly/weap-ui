@@ -5,7 +5,8 @@
     "pages/element/list/list",
     "pages/element/button/button",
     "pages/about/about",
-    "pages/comp/dialog/dialog"
+    "pages/comp/dialog/dialog",
+    "pages/comp/tab/tab"
   ],
   "window": {
     "backgroundTextStyle": "light",

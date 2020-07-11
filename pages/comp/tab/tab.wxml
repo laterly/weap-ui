@@ -1,0 +1,8 @@
+<!--tab.wxml-->
+<view class="app-title">Tab 选项卡</view>
+<view class="tab">
+  <tab tabs="{{tabs}}" bind:onChange="onChange" active="{{active}}"></tab>
+</view>
+<view class="tab">
+  <tab tabs="{{tabs2}}" type="scroll" bind:onChange="onChange2" active="{{active2}}"></tab>
+</view>
