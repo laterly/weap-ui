@@ -1,15 +1,29 @@
 <!--element.wxml-->
 <view class="comp">
-    <view class="comp-top">
-        <view class="page_title">
-            <view class="comp-title">
-                Weapp UI
-                <view class="tui-badge">v1.0.0</view>
-            </view>
-        </view>
-        <view class="page_desc">一套小程序原生组件库UI</view>
-    </view>
-    <view class="comp-content">
-        <view class="comp-content-title">关于</view>
-    </view>
+	<view class="comp-top">
+		<view class="page_title">
+			<view class="comp-title">
+				Weapp UI
+				<view class="tui-badge">v1.0.0</view>
+			</view>
+		</view>
+		<view class="page_desc">封装一套原生微信小程序UI库组件</view>
+	</view>
+	<view class="comp-content">
+		<view class="comp-content-title">关于</view>
+		<view class="intro-box">
+			<view class="intro-item">
+				<view class="intro-title">Weapp UI</view>
+				<view class="intro-desc">原生微信小程序UI库</view>
+			</view>
+			<view class="intro-item">
+				<view class="intro-title">说明</view>
+				<view class="intro-desc">该小程序的工具均是基于原生小程序开发的，无需第三方学习成本</view>
+			</view>
+            <view class="intro-item">
+				<view class="intro-title">引入组件</view>
+				<view class="intro-desc">自定义组件放在/components下</view>
+			</view>
+		</view>
+	</view>
 </view>

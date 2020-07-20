@@ -7,7 +7,7 @@
                 <view class="tui-badge">v1.0.0</view>
             </view>
         </view>
-        <view class="page_desc">一套小程序原生组件库UI</view>
+        <view class="page_desc">封装一套原生微信小程序UI库组件</view>
     </view>
     <view class="comp-content">
         <view class="comp-content-title">元素库演示</view>
