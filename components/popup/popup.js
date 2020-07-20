@@ -72,6 +72,7 @@ Component({
 				popTransName = `${mode}-leave-animated`;
 				shadowTransName = 'showdow-leave';
 			}
+			let delay=type?50:250
 			this.setData({
 				popTransName: popTransName,
 				shadowTransName: shadowTransName,
@@ -81,8 +82,9 @@ Component({
 					this.setData({
 						showHide: type
 					})
-				}, 250)
+				}, delay)
 			})
+			
 		},
 		clickModal() {
 			console.log('关闭');

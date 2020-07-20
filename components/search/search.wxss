@@ -21,7 +21,7 @@
   width: 30rpx;
   height: 30rpx;
   margin-right: 12rpx;
-  margin-left: 12rpx;
+  margin-left: 15rpx;
 }
 
 .shop-input {
