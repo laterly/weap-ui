@@ -7,7 +7,8 @@
     "pages/about/about",
     "pages/comp/dialog/dialog",
     "pages/comp/tab/tab",
-    "pages/element/mask/mask"
+    "pages/element/mask/mask",
+    "pages/comp/search/search"
   ],
   "window": {
     "backgroundTextStyle": "light",

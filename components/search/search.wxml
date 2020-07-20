@@ -1,0 +1,15 @@
+<!--search.wxml-->
+<view class="shop-search" catchtap="searchTap">
+   <view class="shop-search-box">
+   <image src="./images/search-icon.png" class="shop-search-icon" mode="aspectFit"/>
+   <input 
+   class="shop-input {{isSearchInput?'flex1':''}}" 
+   type="text" 
+   placeholder="{{placeholder}}" 
+   placeholder-class="placeholder-class" focus="{{isSearchInput}}" 
+   bindblur="searchBlur"
+   bindinput="searchValue"
+   value="{{value}}"
+   />
+   </view>
+</view>

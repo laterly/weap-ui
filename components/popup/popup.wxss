@@ -43,54 +43,54 @@
   height: 100%;
 }
 .left-enter-animated {
-  animation: leftEenter 0.4s;
+  animation: leftEenter 0.3s;
 }
 
 .left-leave-animated {
-  animation: leftLeave 0.4s;
+  animation: leftLeave 0.3s;
 }
 
 .top-enter-animated {
-  animation: topEenter 0.4s;
+  animation: topEenter 0.3s;
 }
 
 .top-leave-animated {
-  animation: topLeave 0.4s;
+  animation: topLeave 0.3s;
 }
 .bottom-enter-animated {
-  animation: bottomEenter 0.4s;
+  animation: bottomEenter 0.3s;
 }
 
 .bottom-leave-animated {
-  animation: bottomLeave 0.4s;
+  animation: bottomLeave 0.3s;
 }
 
 .middle-enter-animated {
-  animation: middleEnter 0.4s;
+  animation: middleEnter 0.3s;
 }
 .middle-leave-animated {
-  animation: middleLeave 0.4s;
+  animation: middleLeave 0.3s;
 }
 
 .center-enter-animated {
-  animation: centerEnter 0.4s;
+  animation: centerEnter 0.3s;
 }
 .center-leave-animated {
-  animation: centerLeave 0.4s;
+  animation: centerLeave 0.3s;
 }
 
 .right-enter-animated {
-  animation: rightEnter 0.4s;
+  animation: rightEnter 0.3s;
 }
 .right-leave-animated {
-  animation: rightLeave 0.4s;
+  animation: rightLeave 0.3s;
 }
 
 .showdow-enter {
-  animation: shadowEeter 0.4s;
+  animation: shadowEeter 0.3s;
 }
 .showdow-leave {
-  animation: shadowLeave 0.4s;
+  animation: shadowLeave 0.3s;
 }
 
 @keyframes leftEenter {

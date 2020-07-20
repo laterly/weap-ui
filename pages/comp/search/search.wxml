@@ -1,0 +1,6 @@
+<!--pages/comp/search/search.wxml-->
+<view class="app-title">Search 搜索</view>
+<view class="mt25">
+  <search bind:search="searchChange"></search>
+</view>
+

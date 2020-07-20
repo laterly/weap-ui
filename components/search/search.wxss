@@ -1,0 +1,42 @@
+/* search.wxss */
+
+.shop-search {
+  background: #fff;
+  padding: 15rpx 30rpx;
+  box-sizing: border-box;
+}
+
+.shop-search-box {
+  background: rgba(247, 247, 247, 1);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 70rpx;
+  border-radius: 5px;
+}
+
+.shop-search-icon {
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 12rpx;
+  margin-left: 12rpx;
+}
+
+.shop-input {
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #333333;
+  min-width: 166rpx;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.placeholder-class {
+  font-size: 28rpx;
+  font-weight: 400;
+  color: rgba(153, 153, 153, 1);
+}
