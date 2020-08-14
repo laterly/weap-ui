@@ -11,7 +11,14 @@
     "pages/comp/search/search",
     "pages/comp/collapse/collapse",
     "pages/element/icon/icon",
-    "pages/element/loading/loading"
+    "pages/element/loading/loading",
+    "pages/comp/submitBar/submitBar",
+    "pages/comp/tabbar/tabbar",
+    "pages/element/grid/grid",
+    "pages/comp/steps/steps",
+    "pages/element/divider/divider",
+    "pages/comp/noticeBar/noticeBar",
+    "pages/element/empty/empty"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -16,6 +16,10 @@
          <list title="Tab 选项卡" is-link="{{true}}" left-icon="/images/btn-icon3.png" data-page="/pages/comp/tab/tab" catchtap="toPage"></list>
           <list title="Search 搜索" is-link="{{true}}" left-icon="/images/search-icon.png" data-page="/pages/comp/search/search" catchtap="toPage"></list>
           <list title="Collapse 折叠面板" is-link="{{true}}" left-icon="/images/collapse-icon.png" data-page="/pages/comp/collapse/collapse" catchtap="toPage"></list>
-          <list title="Collapse 商品卡片" is-link="{{true}}" left-icon="/images/collapse-icon.png" data-page="/pages/comp/collapse/collapse" catchtap="toPage"></list>
+           <list title="Steps 步骤条" is-link="{{true}}" left-icon="/images/collapse-icon.png" data-page="/pages/comp/steps/steps" catchtap="toPage"></list>
+           <list title="Tabbar 标签栏" is-link="{{true}}" left-icon="/images/collapse-icon.png" data-page="/pages/comp/tabbar/tabbar" catchtap="toPage"></list>
+           <list title="NoticeBar 通告栏" is-link="{{true}}" left-icon="/images/collapse-icon.png" data-page="/pages/comp/noticeBar/noticeBar" catchtap="toPage"></list>
+          <list title="Card 商品卡片" is-link="{{true}}" left-icon="/images/collapse-icon.png" data-page="/pages/comp/card/card" catchtap="toPage"></list>
+          <list title="SubmitBar 提交订单栏" is-link="{{true}}" left-icon="/images/collapse-icon.png" data-page="/pages/comp/submitBar/submitBar" catchtap="toPage"></list>
     </view>
 </view>
