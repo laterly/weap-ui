@@ -1,0 +1,2 @@
+<!--component/icon/icon.wxml-->
+ <text class="{{'icon-'+name}} le-icon " style='font-size:{{size}};color:{{color}};'></text>

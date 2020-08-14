@@ -15,5 +15,7 @@
         <list title="Dialog 弹出框" is-link="{{true}}" left-icon="/images/button-icon.png" data-page="/pages/comp/dialog/dialog" catchtap="toPage"></list>
          <list title="Tab 选项卡" is-link="{{true}}" left-icon="/images/btn-icon3.png" data-page="/pages/comp/tab/tab" catchtap="toPage"></list>
           <list title="Search 搜索" is-link="{{true}}" left-icon="/images/search-icon.png" data-page="/pages/comp/search/search" catchtap="toPage"></list>
+          <list title="Collapse 折叠面板" is-link="{{true}}" left-icon="/images/collapse-icon.png" data-page="/pages/comp/collapse/collapse" catchtap="toPage"></list>
+          <list title="Collapse 商品卡片" is-link="{{true}}" left-icon="/images/collapse-icon.png" data-page="/pages/comp/collapse/collapse" catchtap="toPage"></list>
     </view>
 </view>

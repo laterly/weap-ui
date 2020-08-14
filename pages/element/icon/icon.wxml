@@ -1,0 +1,10 @@
+<!--pages/element/icon/icon.wxml-->
+<view class="app-title">Icon 图标</view>
+<view class="icon-box">
+    <view class="icon-list" wx:for="{{iconList}}" wx:key="index">
+        <icon name='{{item}}}' color="#323233" size="28px"></icon>
+        <text class="icon-text">{{item}}</text>
+    </view>
+    
+</view>
+

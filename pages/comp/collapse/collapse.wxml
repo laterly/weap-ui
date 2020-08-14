@@ -1,0 +1,7 @@
+<!--pages/comp/collapse/collapse.wxml-->
+<view class="app-title">Collapse 折叠面板</view>
+<view class="mt25">
+  <collapse></collapse>
+</view>
+
+

@@ -8,7 +8,10 @@
     "pages/comp/dialog/dialog",
     "pages/comp/tab/tab",
     "pages/element/mask/mask",
-    "pages/comp/search/search"
+    "pages/comp/search/search",
+    "pages/comp/collapse/collapse",
+    "pages/element/icon/icon",
+    "pages/element/loading/loading"
   ],
   "window": {
     "backgroundTextStyle": "light",

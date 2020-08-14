@@ -1,0 +1,39 @@
+<!-- pages/element/loading/loading.wxml -->
+<view class="app-title">Loading 加载</view>
+<view class="app-sub-title">加载类型</view>
+<view class="app-box">
+    <loading size="32px"></loading>
+    <loading type="1" size="32px"></loading>
+    <loading type="2" size="32px"></loading>
+    <loading type="3" size="32px"></loading>
+    <loading type="4" size="32px"></loading>
+    <loading type="5" size="32px"></loading>
+   
+</view>
+<view class="app-sub-title">加载颜色</view>
+<view class="app-box">
+    <loading size="32px" color="#08C261"></loading>
+    <loading type="1" size="32px" color="#08C261"></loading>
+    <loading type="2" size="32px" color="#08C261"></loading>
+    <loading type="3" size="32px" color="#08C261"></loading>
+    <loading type="4" size="32px" color="#08C261"></loading>
+    <loading type="5" size="32px" color="#08C261"></loading>
+    
+</view>
+<view class="app-sub-title">加载大小</view>
+<view class="app-box">
+    <loading size="24px"></loading>
+    <loading type="1" size="24px"></loading>
+    <loading type="2" size="24px"></loading>
+    <loading type="3" size="24px"></loading>
+    <loading type="4" size="24px"></loading>
+    <loading type="5" size="24px"></loading>
+</view>
+<view class="app-sub-title">加载文案</view>
+<view class="app-box">
+    <loading size="24px">加载中...</loading>
+</view>
+<view class="app-sub-title">垂直排列</view>
+<view class="app-box">
+    <loading size="24px" vertical="{{true}}">加载中...</loading>
+</view>

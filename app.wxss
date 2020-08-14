@@ -127,3 +127,20 @@ page {
 .mt25{
   margin-top: 25rpx;
 }
+.app-sub-title{
+  margin: 0;
+    padding: 32rpx 20rpx 16rpx;
+    color: rgba(69, 90, 100, 0.6);
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    box-sizing: border-box;
+}
+.app-box{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 20rpx;
+  box-sizing: border-box;
+}

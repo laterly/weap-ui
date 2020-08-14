@@ -1,0 +1,66 @@
+/* loading.wxss */
+@font-face {font-family: "loading";
+    src:url('data:application/x-font-woff2;charset=utf-8;base64,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') format('woff2');
+   
+  }
+  .loading-box{
+    display: inline-block;
+    margin: 0 10rpx;
+    display: inline-flex;
+    align-items: center;
+  }
+  .loading-text{
+    margin-left:5rpx;
+  }
+  .loading {
+    font-family: "loading" !important;
+    font-size: 24px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color:#c8c9cc;
+  }
+  
+  .icon-loading:before {
+    content: "\e626";
+  }
+  
+  .icon-loading1:before {
+    content: "\e61f";
+  }
+  
+  .icon-loading2:before {
+    content: "\e8fc";
+  }
+  .icon-loading4:before {
+    content: "\e639";
+  }
+  @keyframes icon-spin {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+.iconfont-spin {
+  -webkit-animation: icon-spin 2s infinite linear;
+  animation: icon-spin 2s infinite linear;
+  display: inline-block;
+}
+.iconfont-pulse {
+  -webkit-animation: icon-spin 1s infinite steps(8);
+  animation: icon-spin 1s infinite steps(8);
+  display: inline-block;
+}
+.flex-column{
+  flex-direction: column;
+  justify-content: center;
+
+}
+.flex-column .loading-text{
+  margin-left: 0;
+  margin-top:10rpx;
+}

@@ -1,0 +1,11 @@
+<!-- loading.wxml -->
+
+<view class="loading-box {{vertical?'flex-column':''}}">
+    <text 
+        class="loading  {{'icon-loading'+type}} iconfont-spin" 
+        style="font-size:{{size}};color:{{color}};">
+    </text>
+    <text class="loading-text" style="font-size:{{textSize}}">
+        <slot></slot>
+    </text>
+</view>
