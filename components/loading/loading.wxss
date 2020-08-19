@@ -26,13 +26,9 @@
   }
   
   .icon-loading1:before {
-    content: "\e61f";
-  }
-  
-  .icon-loading2:before {
     content: "\e8fc";
   }
-  .icon-loading4:before {
+  .icon-loading2:before {
     content: "\e639";
   }
   @keyframes icon-spin {

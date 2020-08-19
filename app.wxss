@@ -50,7 +50,10 @@ page {
   display: flex;
   flex-direction: column;
 }
-
+.page-column{
+  width: 100%;
+  height: 100vh;
+}
 .text-elli {
   overflow: hidden;
   white-space: nowrap;
