@@ -28,8 +28,8 @@
     color: rgba(255, 255, 255, 1);
 }
 .button.secondary {
-    background: rgba(247, 247, 247, 1) !important;
-    color: #08c261!important;
+    background: rgba(247, 247, 247, 1);
+    color: #08c261;
 }
 .button.round {
     border-radius: 100px;
@@ -48,3 +48,10 @@
   .button.shadow {
     box-shadow: 6rpx 6rpx 8rpx rgba(8,194,97, 0.2);
   }
+
+.button.default:active{
+    background: #07b159;
+}
+.button.secondary:active {
+    background: #e5e5e5;
+}
