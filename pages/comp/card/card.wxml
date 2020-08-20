@@ -1,2 +1,36 @@
 <!--pages/comp/card/card.wxml-->
-<text>pages/comp/card/card.wxml</text>
+<view class="app-title">Card 商品卡片</view>
+<view class="app-sub-title">基础用法</view>
+<card 
+tag="{{tag1}}"
+price="12.99"
+origin-price="20.99"
+title="商品名称"
+desc="描述信息"
+pic-tag="图片标签"
+bind:click="clickGoods" 
+bind:pic="clickPic" 
+></card>
+<view class="app-sub-title">基础用法例:</view>
+<card 
+tag="{{tag2}}"
+price="12.99"
+origin-price="20.99"
+title="步步高竹子带迷你陶瓷盆"
+desc="竹子的象征意义始终是正气的，竹子象征着生命的柔韧坚强、长寿安宁、幸福和谐。竹子秀逸而风韵，纤细柔美，长青不败，象征青春永驻；"
+thumb="/images/example/goods.jpg"
+pic-tag="已售20"
+bind:click="clickGoods" 
+bind:pic="clickPic" 
+></card>
+<view class="app-sub-title">自定义插槽</view>
+<card 
+tag="{{tag1}}"
+price="12.99"
+origin-price="20.99"
+title="商品名称"
+desc="描述信息"
+bind:click="clickGoods" 
+bind:pic="clickPic">
+<view class="specs-btn">选规格</view>
+</card>

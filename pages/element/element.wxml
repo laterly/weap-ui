@@ -13,7 +13,7 @@
         <view class="comp-content-title">元素库演示</view>
         <list title="List 列表" is-link="{{true}}" left-icon="/images/bottom-icon2.png" data-page="/pages/element/list/list" catchtap="toPage"></list>
         <list title="Icon 图标" is-link="{{true}}" left-icon="/images/button-icon.png" data-page="/pages/element/icon/icon" catchtap="toPage"></list>
-        <list title="Grid 宫格" is-link="{{true}}" left-icon="/images/bottom-icon2.png" data-page="/pages/element/grid/grid" catchtap="toPage"></list>
+        <!-- <list title="Grid 宫格" is-link="{{true}}" left-icon="/images/bottom-icon2.png" data-page="/pages/element/grid/grid" catchtap="toPage"></list> -->
         <list title="Button 按钮" is-link="{{true}}" left-icon="/images/button-icon.png" data-page="/pages/element/button/button" catchtap="toPage"></list>
          <list title="Empty 空状态" is-link="{{true}}" left-icon="/images/button-icon.png" data-page="/pages/element/empty/empty" catchtap="toPage"></list>
         <list title="Mask 遮罩层" is-link="{{true}}" left-icon="/images/button-icon.png" data-page="/pages/element/mask/mask" catchtap="toPage"></list>

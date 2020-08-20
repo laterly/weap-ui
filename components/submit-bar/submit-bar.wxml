@@ -1,0 +1,12 @@
+<!--components/submit-bar/submit-bar.wxml-->
+    <view class="bottom-cart flex" style="{{ifIphoneX ? 'padding-bottom: 32rpx;' :''}}">
+      <view class="left flex">
+        <view class="total-num" wx:if="{{num}}">共{{num}}件,</view>
+        合计：
+        <view class="total-price"><text class="price-unit">￥</text>{{price}}
+        </view>
+      </view>
+      <view class="right flex1">
+        <view class="result-btn" catchtap="startPay">{{buttonText}}</view>
+      </view>
+    </view>

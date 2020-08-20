@@ -1,3 +1,5 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "submit-bar":"/components/submit-bar/submit-bar"
+  }
 }

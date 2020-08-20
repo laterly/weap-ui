@@ -1,0 +1,92 @@
+/* components/goods-action/goods-action.wxss */
+.btn-default {
+  background: 0 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  text-align: left;
+  line-height: normal;
+  overflow: visible
+}
+
+.btn-default::after {
+  border: 0
+}
+
+.bottom-btns-area {
+  width: 100%;
+  min-height: 108rpx;
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+  z-index: 15;
+  left: 0;
+  display: flex;
+  align-items: center;
+  padding-right: 32rpx;
+  box-sizing: border-box;
+  border-top: 2rpx solid #f7f7f7;
+
+}
+
+.bottom-left {
+  display: flex;
+  height: 100rpx;
+}
+
+.bottom-btn {
+  padding: 0 30rpx;
+  height: 100%;
+  font-size: 22rpx;
+  color: #666;
+  flex-direction: column;
+  position: relative;
+  line-height: 1.4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+
+.bottom-btn-icon {
+  width: 40rpx;
+  height: 40rpx;
+  display: block;
+
+}
+
+.bottom-share-btn {
+  height: 80rpx;
+  background: #08c261;
+  border-radius: 40rpx;
+  font-size: 30rpx;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+
+.flex-btn .bottom-share-btn:nth-child(1){
+  background: rgba(247, 247, 247, 1);
+  color: #08c261;
+  border-radius: 40rpx 0 0 40rpx;
+}
+.flex-btn .bottom-share-btn:nth-child(2){
+  border-radius: 0 40rpx 40rpx 0;
+}
+.flex-btn .bottom-share-btn.disable {
+  background: rgba(0, 0, 0, .6);
+  color: #ccc;
+}
+
+.bottom-share-btn:active{
+  opacity: .9;
+}
+.flex1 {
+  flex: 1;
+}
+.flex{
+  display: flex;
+}

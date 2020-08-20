@@ -1,0 +1,12 @@
+<!--pages/comp/goodsAction/goodsAction.wxml-->
+<view class="app-title">GoodsAction 商品导航</view>
+<goods-action buttonBar="{{['立即购买']}}" bind:clickButton="clickButton" >
+	<goods-action-icon icon="/images/example/xiaoxi.png" text="客服" dot="{{true}}" bind:clickIcon="clickIcon"></goods-action-icon>
+	<goods-action-icon icon="/images/example/cart.png" text="购物车" info="12"  bind:clickIcon="clickIcon"></goods-action-icon>
+	<goods-action-icon icon="/images/example/store.png" text="店铺"  bind:clickIcon="clickIcon"></goods-action-icon>
+</goods-action>
+<!-- <goods-action buttonBar="{{['加入购物车','立即购买']}}" bind:clickButton="clickButton">
+	<goods-action-icon icon="/images/example/xiaoxi.png" text="客服"></goods-action-icon>
+	<goods-action-icon icon="/images/example/cart.png" text="购物车"></goods-action-icon>
+	<goods-action-icon icon="/images/example/store.png" text="店铺"></goods-action-icon>
+</goods-action> -->

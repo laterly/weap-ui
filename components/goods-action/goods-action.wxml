@@ -1,0 +1,8 @@
+<!--components/goods-action/goods-action.wxml-->
+<view class="bottom-btns-area" style="{{ifIphoneX ? 'padding-bottom: 32rpx;' :''}}">
+	<slot></slot>
+  <view class="flex1 flex {{buttonBar[1]?'flex-btn':''}}">
+    <button class="btn-default flex1 bottom-share-btn" catchtap="clickButton" data-item="{{buttonBar[0]}}">{{buttonBar[0]}}</button>
+    <button class="btn-default flex1 bottom-share-btn" wx:if="{{buttonBar[1]}}" catchtap="clickButton" data-item="{{buttonBar[1]}}">{{buttonBar[1]}}</button>
+  </view>
+</view>

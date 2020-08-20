@@ -21,5 +21,6 @@
            <list title="NoticeBar 通告栏" is-link="{{true}}" left-icon="/images/collapse-icon.png" data-page="/pages/comp/noticeBar/noticeBar" catchtap="toPage"></list>
           <list title="Card 商品卡片" is-link="{{true}}" left-icon="/images/collapse-icon.png" data-page="/pages/comp/card/card" catchtap="toPage"></list>
           <list title="SubmitBar 提交订单栏" is-link="{{true}}" left-icon="/images/collapse-icon.png" data-page="/pages/comp/submitBar/submitBar" catchtap="toPage"></list>
+            <list title="GoodsAction 商品导航" is-link="{{true}}" left-icon="/images/collapse-icon.png" data-page="/pages/comp/goodsAction/goodsAction" catchtap="toPage"></list>
     </view>
 </view>

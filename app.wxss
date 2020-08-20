@@ -138,6 +138,7 @@ page {
     font-size: 14px;
     line-height: 16px;
     box-sizing: border-box;
+    height: 60rpx;
 }
 .app-box{
   display: flex;

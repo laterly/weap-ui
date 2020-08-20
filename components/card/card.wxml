@@ -1,0 +1,25 @@
+<view class="card-box">
+  <view class="card-content">
+    <view class="goods-pic-container" catchtap="privePic">
+      <image class="goods-pic" src="{{thumb}}" mode="aspectFill"></image>
+      <view class="goods-pic-tag" wx:if="{{picTag}}">{{picTag}}</view>
+    </view>
+    <view class="goods-content-box">
+      <text class="goods-name" wx:if="{{title}}">{{title}}</text>
+      <view class="goods-intro" wx:if="{{desc}}">{{desc}}</view>
+      <view class="goods-tag-box" wx:if="{{tag.length!=0}}" >
+        <text class="goods-tag"  wx:for="{{tag}}" wx:key="index">{{item}}</text>
+      </view>
+      <view class="flex1"></view>
+      <view class="price-box">
+        <view class="price">
+          <view class="price-text" wx:if="{{price}}">¥{{price}}</view>
+          <view class="proice-dis" wx:if="{{originPrice}}">¥{{originPrice}}</view>
+        </view>
+        <view class="amount-box">
+         <slot></slot>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

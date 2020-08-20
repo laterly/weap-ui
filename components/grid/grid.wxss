@@ -1,0 +1,5 @@
+/* components/grid/grid.wxss */
+.grid-box{
+  display: flex;
+  flex-wrap: wrap;
+}

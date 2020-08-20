@@ -1,1 +1,17 @@
 /* pages/comp/card/card.wxss */
+.slot-class{
+  box-sizing: border-box;
+  padding: 0 10rpx;
+}
+.specs-btn {
+  width: 105rpx;
+  height: 42rpx;
+  background: #08c261;
+  border-radius: 21rpx;
+  font-size: 24rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  }
+  

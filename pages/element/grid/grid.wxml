@@ -1,2 +1,5 @@
 <!--pages/element/grid/grid.wxml-->
-<text>pages/element/grid/grid.wxml</text>
+<view class="page-column flex-column">
+<view class="app-title">Grid 宫格</view>
+<grid></grid>
+</view>

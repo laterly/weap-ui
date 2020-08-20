@@ -1,0 +1,10 @@
+/* components/grid/grid-item.wxss */
+.grid-item{
+  box-sizing: border-box;
+  flex-basis: 33.3333%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

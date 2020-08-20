@@ -50,8 +50,8 @@
   }
 
 .button.default:active{
-    background: #07b159;
+    opacity: 0.9;
 }
 .button.secondary:active {
-    background: #e5e5e5;
+    background: #f5f5f5;
 }

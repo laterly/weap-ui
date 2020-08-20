@@ -1,4 +1,7 @@
 {
   "component": true,
-  "usingComponents": {}
+  "usingComponents": {
+    "card":"/components/card/card",
+    "w-button":"/components/w-button/w-button"
+  }
 }

@@ -1,5 +1,5 @@
 <!--list.wxml-->
-<view class="list">
+<view class="list" hover-class="{{isLink?'hover-active':''}}">
     <view class="left" wx:if="{{leftIcon}}">
         <image class="left-img" src="{{leftIcon}}" mode="aspectFit"/>
     </view>

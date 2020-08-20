@@ -1,4 +1,4 @@
-// pages/comp/submitBar/submitBar.js
+// pages/comp/goodsAction/goodsAction.js
 Page({
 
   /**
@@ -21,9 +21,16 @@ Page({
   onReady: function () {
 
   },
-  submit(){
+  clickButton(e){
+    console.log('eee',e);
     wx.showToast({
-      title: '点击提交',
+      title: e.detail,
+      icon:'none'
+    })
+  },
+  clickIcon(e){
+    wx.showToast({
+      title: e.detail,
       icon:'none'
     })
   },

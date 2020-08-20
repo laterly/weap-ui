@@ -1,2 +1,8 @@
 <!--pages/comp/submitBar/submitBar.wxml-->
-<text>pages/comp/submitBar/submitBar.wxml</text>
+<view class="app-title">SubmitBar 提交订单栏</view>
+<submit-bar
+num="10"
+tip="你的收货地址不支持同城送, 我们已为你推荐快递"
+price="30.50"
+button-text="提交订单"
+bind:submit="submit"></submit-bar>

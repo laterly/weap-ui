@@ -1,0 +1,62 @@
+/* components/divider/divider.wxss */
+.fill-item-tab {
+  box-sizing: border-box;
+  padding: 0 30rpx;
+  align-items: center;
+  position: relative;
+  margin: 0 auto;
+  width: 700rpx;
+  display: flex;
+  border-radius: 50%;
+  z-index: 1;
+  height: 35rpx;
+  margin-top: 20rpx;
+}
+
+.fill-item-tab.bottom {
+  padding: 50rpx 30rpx;
+  height: auto;
+}
+
+ .tab-item-name {
+  padding: 0 29rpx;
+  line-height: 28rpx;
+  font-size: 28rpx;
+  font-weight: bold;
+  font-weight: 700;
+  color: #999;  
+  z-index: 2;
+}
+
+.overview-line {
+  flex: 1;
+  height: 2rpx;
+  background: linear-gradient(90deg,
+      rgba(232, 232, 232, 1),
+      rgba(153, 153, 153, 1),
+      rgba(232, 232, 232, 1));
+}
+
+.point-left {
+  width: 6rpx;
+  height: 6rpx;
+  background: rgba(153, 153, 153, 1);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.point-right {
+  width: 6rpx;
+  height: 6rpx;
+  background: rgba(153, 153, 153, 1);
+  border-radius: 50%;
+  z-index: 1;
+}
+.fill-item-tab.divider-1 .overview-line {
+  background: rgba(153, 153, 153, .8);
+  
+}
+.fill-item-tab.divider-2 .overview-line {
+  background: none;
+  border-bottom: 1px dashed rgba(153, 153, 153, .8);
+}

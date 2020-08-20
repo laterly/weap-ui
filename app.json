@@ -18,7 +18,9 @@
     "pages/comp/steps/steps",
     "pages/element/divider/divider",
     "pages/comp/noticeBar/noticeBar",
-    "pages/element/empty/empty"
+    "pages/element/empty/empty",
+    "components/card/card",
+    "pages/comp/goodsAction/goodsAction"
   ],
   "window": {
     "backgroundTextStyle": "light",

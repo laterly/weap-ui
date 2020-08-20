@@ -1,0 +1,4 @@
+<!--components/grid/grid.wxml-->
+<view class="grid-box">
+<grid-item></grid-item>
+</view>

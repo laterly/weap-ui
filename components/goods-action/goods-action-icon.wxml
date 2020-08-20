@@ -1,0 +1,10 @@
+<!--components/goods-action/goods-action-icon.wxml-->
+<view class="bottom-btn" catchtap="clickIcon" data-item="{{text}}">
+			<view class="rel">
+				<image class="bottom-btn-icon" src="{{icon}}"></image>
+				<view class="icon-tag" wx:if="{{info}}">{{info}}</view>
+				<view class="icon-tag-dot" wx:elif="{{dot}}"></view>
+			</view>
+			<text>{{text}}</text>
+			
+		</view>

@@ -1,0 +1,10 @@
+<!--components/divider/divider.wxml-->
+<view class="fill-item-tab {{'divider-'+type}}">
+	<view class="overview-line" />
+	<view class="point-left" />
+	<view class="tab-item-name">
+	<slot></slot>
+	</view>
+	<view class="point-right" />
+	<view class="overview-line" />
+</view>
