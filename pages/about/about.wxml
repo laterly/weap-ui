@@ -3,7 +3,7 @@
 	<view class="comp-top">
 		<view class="page_title">
 			<view class="comp-title">
-				Weap UI
+				Weap UI 
 				<view class="tui-badge">v1.0.0</view>
 			</view>
 		</view>
@@ -13,7 +13,7 @@
 		<view class="comp-content-title">关于</view>
 		<view class="intro-box">
 			<view class="intro-item">
-				<view class="intro-title">Weapp UI</view>
+				<view class="intro-title">Weap UI</view>
 				<view class="intro-desc">原生微信小程序UI库</view>
 			</view>
 			<view class="intro-item">
