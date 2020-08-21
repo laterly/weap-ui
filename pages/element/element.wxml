@@ -1,23 +1,23 @@
 <!--element.wxml-->
 <view class="comp">
-    <view class="comp-top">
-        <view class="page_title">
-            <view class="comp-title">
-                Weapp UI
-                <view class="tui-badge">v1.0.0</view>
-            </view>
-        </view>
-        <view class="page_desc">封装一套原生微信小程序UI库组件</view>
-    </view>
-    <view class="comp-content">
-        <view class="comp-content-title">元素库演示</view>
-        <list title="List 列表" is-link="{{true}}" left-icon="/images/bottom-icon2.png" data-page="/pages/element/list/list" catchtap="toPage"></list>
-        <list title="Icon 图标" is-link="{{true}}" left-icon="/images/button-icon.png" data-page="/pages/element/icon/icon" catchtap="toPage"></list>
-        <!-- <list title="Grid 宫格" is-link="{{true}}" left-icon="/images/bottom-icon2.png" data-page="/pages/element/grid/grid" catchtap="toPage"></list> -->
-        <list title="Button 按钮" is-link="{{true}}" left-icon="/images/button-icon.png" data-page="/pages/element/button/button" catchtap="toPage"></list>
-         <list title="Empty 空状态" is-link="{{true}}" left-icon="/images/button-icon.png" data-page="/pages/element/empty/empty" catchtap="toPage"></list>
-        <list title="Mask 遮罩层" is-link="{{true}}" left-icon="/images/button-icon.png" data-page="/pages/element/mask/mask" catchtap="toPage"></list>
-        <list title="Divider 分割线" is-link="{{true}}" left-icon="/images/button-icon.png" data-page="/pages/element/divider/divider" catchtap="toPage"></list>
-        <list title="Loading 加载" is-link="{{true}}" left-icon="/images/button-icon.png" data-page="/pages/element/loading/loading" catchtap="toPage"></list>
-    </view>
+	<view class="comp-top">
+		<view class="page_title">
+			<view class="comp-title">
+				Weapp UI
+				<view class="tui-badge">v1.0.0</view>
+			</view>
+		</view>
+		<view class="page_desc">封装一套原生微信小程序UI库组件</view>
+	</view>
+	<view class="comp-content">
+		<view class="comp-content-title">元素库演示</view>
+		<list title="List 列表" is-link="{{true}}" data-page="/pages/element/list/list" catchtap="toPage"></list>
+		<list title="Icon 图标" is-link="{{true}}" data-page="/pages/element/icon/icon" catchtap="toPage"></list>
+		<!-- <list title="Grid 宫格" is-link="{{true}}" left-icon="/images/bottom-icon2.png" data-page="/pages/element/grid/grid" catchtap="toPage"></list> -->
+		<list title="Button 按钮" is-link="{{true}}" data-page="/pages/element/button/button" catchtap="toPage"></list>
+		<list title="Empty 空状态" is-link="{{true}}" data-page="/pages/element/empty/empty" catchtap="toPage"></list>
+		<list title="Mask 遮罩层" is-link="{{true}}" data-page="/pages/element/mask/mask" catchtap="toPage"></list>
+		<list title="Divider 分割线" is-link="{{true}}" data-page="/pages/element/divider/divider" catchtap="toPage"></list>
+		<list title="Loading 加载" is-link="{{true}}" data-page="/pages/element/loading/loading" catchtap="toPage"></list>
+	</view>
 </view>

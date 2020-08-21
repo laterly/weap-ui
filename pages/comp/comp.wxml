@@ -1,27 +1,27 @@
 <!-- comp.wxml -->
 <view class="comp">
-    <view class="comp-top">
-        <view class="page_title">
-            <view class="comp-title">
-                Weapp UI
-                <view class="tui-badge">v1.0.0</view>
-            </view>
-        </view>
-        <view class="page_desc">封装一套原生微信小程序UI库组件</view>
-    </view>
-    <view class="comp-content">
-        <view class="comp-content-title">组件库演示</view>
-        <list title="Popup 弹出层" is-link="{{true}}" left-icon="/images/op_copy.png" data-page="/pages/comp/popup/popup" catchtap="toPage"></list>
-        <list title="Dialog 弹出框" is-link="{{true}}" left-icon="/images/button-icon.png" data-page="/pages/comp/dialog/dialog" catchtap="toPage"></list>
-         <list title="Tab 选项卡" is-link="{{true}}" left-icon="/images/btn-icon3.png" data-page="/pages/comp/tab/tab" catchtap="toPage"></list>
-          <list title="Search 搜索" is-link="{{true}}" left-icon="/images/search-icon.png" data-page="/pages/comp/search/search" catchtap="toPage"></list>
-          <list title="Collapse 折叠面板" is-link="{{true}}" left-icon="/images/collapse-icon.png" data-page="/pages/comp/collapse/collapse" catchtap="toPage"></list>
-           <list title="Steps 步骤条" is-link="{{true}}" left-icon="/images/collapse-icon.png" data-page="/pages/comp/steps/steps" catchtap="toPage"></list>
-           <list title="Tabbar 标签栏" is-link="{{true}}" left-icon="/images/collapse-icon.png" data-page="/pages/comp/tabbar/tabbar" catchtap="toPage"></list>
-           <list title="NoticeBar 通告栏" is-link="{{true}}" left-icon="/images/collapse-icon.png" data-page="/pages/comp/noticeBar/noticeBar" catchtap="toPage"></list>
-          <list title="Card 商品卡片" is-link="{{true}}" left-icon="/images/collapse-icon.png" data-page="/pages/comp/card/card" catchtap="toPage"></list>
-          <list title="SubmitBar 提交订单栏" is-link="{{true}}" left-icon="/images/collapse-icon.png" data-page="/pages/comp/submitBar/submitBar" catchtap="toPage"></list>
-           <list title="MailAddress 邮寄地址" is-link="{{true}}" left-icon="/images/collapse-icon.png" data-page="/pages/comp/mailAddress/mailAddress" catchtap="toPage"></list>
-            <list title="GoodsAction 商品导航" is-link="{{true}}" left-icon="/images/collapse-icon.png" data-page="/pages/comp/goodsAction/goodsAction" catchtap="toPage"></list>
-    </view>
+	<view class="comp-top">
+		<view class="page_title">
+			<view class="comp-title">
+				Weapp UI
+				<view class="tui-badge">v1.0.0</view>
+			</view>
+		</view>
+		<view class="page_desc">封装一套原生微信小程序UI库组件</view>
+	</view>
+	<view class="comp-content">
+		<view class="comp-content-title">组件库演示</view>
+		<list title="Popup 弹出层" is-link="{{true}}" data-page="/pages/comp/popup/popup" catchtap="toPage"></list>
+		<list title="Dialog 弹出框" is-link="{{true}}" data-page="/pages/comp/dialog/dialog" catchtap="toPage"></list>
+		<list title="Tab 选项卡" is-link="{{true}}" data-page="/pages/comp/tab/tab" catchtap="toPage"></list>
+		<list title="Search 搜索" is-link="{{true}}" data-page="/pages/comp/search/search" catchtap="toPage"></list>
+		<list title="Collapse 折叠面板" is-link="{{true}}" data-page="/pages/comp/collapse/collapse" catchtap="toPage"></list>
+		<list title="Steps 步骤条" is-link="{{true}}" data-page="/pages/comp/steps/steps" catchtap="toPage"></list>
+		<list title="Tabbar 标签栏" is-link="{{true}}" data-page="/pages/comp/tabbar/tabbar" catchtap="toPage"></list>
+		<list title="NoticeBar 通告栏" is-link="{{true}}" data-page="/pages/comp/noticeBar/noticeBar" catchtap="toPage"></list>
+		<list title="Card 商品卡片" is-link="{{true}}" data-page="/pages/comp/card/card" catchtap="toPage"></list>
+		<list title="SubmitBar 提交订单栏" is-link="{{true}}" data-page="/pages/comp/submitBar/submitBar" catchtap="toPage"></list>
+		<list title="MailAddress 邮寄地址" is-link="{{true}}" data-page="/pages/comp/mailAddress/mailAddress" catchtap="toPage"></list>
+		<list title="GoodsAction 商品导航" is-link="{{true}}" data-page="/pages/comp/goodsAction/goodsAction" catchtap="toPage"></list>
+	</view>
 </view>

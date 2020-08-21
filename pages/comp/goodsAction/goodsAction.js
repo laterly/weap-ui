@@ -22,7 +22,6 @@ Page({
 
   },
   clickButton(e){
-    console.log('eee',e);
     wx.showToast({
       title: e.detail,
       icon:'none'

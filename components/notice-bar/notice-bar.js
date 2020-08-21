@@ -46,7 +46,6 @@ Component({
   lifetimes: {
     attached() {
       if(this.data.mode=='fade'){
-        console.log('ee');
         this.setNoticeAnimate();
       }
      
@@ -77,10 +76,8 @@ Component({
       clearInterval(this.data.noticeInterval);
     },
     noticeAnimateEnd() {
-      console.log('进来');
       if (this.data.isHideNotice) {
         let { notice, noticeIndex } = this.data;
-        console.log('isHideNotice',notice,noticeIndex);
         this.setData({
           noticeIndex: noticeIndex < notice.length - 1 ? noticeIndex + 1 : 0,
           isHideNotice: false,

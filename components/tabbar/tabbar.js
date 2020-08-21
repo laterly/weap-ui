@@ -29,7 +29,6 @@ Component({
   methods: {
     pathTo(e) {
       let { item, index } = e.currentTarget.dataset;
-      console.log('e',e);
       if(index===this.data.current){
         return
       }

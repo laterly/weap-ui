@@ -20,7 +20,7 @@
 				<view class="intro-title">说明</view>
 				<view class="intro-desc">该小程序的工具均是基于原生小程序开发的，无需第三方学习成本</view>
 			</view>
-            <view class="intro-item">
+			<view class="intro-item">
 				<view class="intro-title">引入组件</view>
 				<view class="intro-desc">自定义组件放在/components下</view>
 			</view>

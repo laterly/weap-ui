@@ -51,7 +51,6 @@ Page({
 
   },
   clickTab(e){
-    console.log('eeee',e);
     this.setData({
       current:e.detail.index
     })

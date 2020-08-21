@@ -19,7 +19,6 @@ Page({
 
   },
   openPopup(e){
-    console.log('e',e);
     const {
       mode
     }=e.currentTarget.dataset;

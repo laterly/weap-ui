@@ -18,7 +18,6 @@ Component({
 			type: Boolean,
 			value: false,
 			observer(newValue) {
-				// console.log('newValue', newValue);
 				this.changeAnimateName(newValue);
 			}
 		},
@@ -58,7 +57,6 @@ Component({
 
 		},
 		changeAnimateName(type) {
-			console.log('type', type);
 			let popTransName = '',
 				shadowTransName = ''
 			let {
@@ -87,7 +85,6 @@ Component({
 			
 		},
 		clickModal() {
-			console.log('关闭');
 			if (this.data.closeOnClickModal)
 				this.triggerEvent('close');
 		}

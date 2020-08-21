@@ -67,7 +67,6 @@ Component({
     },
     toCategory(e) {
       let {index,catId,type} = e.currentTarget.dataset;
-      console.log('index',index);
       this.setSlider(index);
       this.triggerEvent('onChange', catId);
       if(type==2) this.changeBar();
@@ -84,7 +83,6 @@ Component({
       })
     },
     hide(){
-      console.log('hide',111);
       this.setData({
         isOpen:false
       })
