@@ -20,7 +20,8 @@
     "pages/comp/noticeBar/noticeBar",
     "pages/element/empty/empty",
     "components/card/card",
-    "pages/comp/goodsAction/goodsAction"
+    "pages/comp/goodsAction/goodsAction",
+    "pages/comp/mailAddress/mailAddress"
   ],
   "window": {
     "backgroundTextStyle": "light",

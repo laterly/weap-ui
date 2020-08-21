@@ -1,0 +1,23 @@
+<!--components/mail-address/mail-address.wxml-->
+<!--deliveryAddress.wxml-->
+<view class="delivery-address" catchtap="click">
+    <view class="address-row">
+        <view class="address-icon">
+            <image class="address-img" src="./images/address-icon.png"/>
+        </view>
+        <view class="address-center">
+            <view class="info">
+                <block>{{title}}</block>
+            </view>
+            <view class="address text-eli-line2">
+                <block>{{desc}}</block>
+            </view>
+        </view>
+        <view class="address-select flex1">
+            <image class="next-img" src="./images/next-icon.png"/>
+        </view>
+    </view>
+    <view class="address-bottom">
+        <image class="bottom-icon" mode="widthFix" src="./images/address-bottom.png" />
+    </view>
+</view>

@@ -1,0 +1,6 @@
+<!--pages/comp/mailAddress/mailAddress.wxml-->
+<view class="app-title">MailAddress 邮寄地址</view>
+<view class="app-sub-title">基础用法</view>
+<mail-address bind:click="click"></mail-address>
+<view class="app-sub-title">基础用法例</view>
+<mail-address bind:click="click" title="张三 020-81167888" desc="广东省广州市海珠区新港中路397号"></mail-address>

@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "mail-address":"/components/mail-address/mail-address"
+  }
+}

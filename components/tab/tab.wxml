@@ -39,7 +39,7 @@
 <block wx:else>
 	<view class="tool-bar-box">
 		<view class="tool-bar-top">
-			<view class="tool-bar-left">全部分类</view>
+			<view class="tool-bar-left">全部选项</view>
 			<view class="tool-bar-right" catchtap="changeBar">
 				<image class="tool-bar-menu" src="https://xwsq-img.wxatech.com/fanTan/staticImg/lahs/appindex/home_ic_arrow.png"></image>
 			</view>
