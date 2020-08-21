@@ -1,22 +1,32 @@
 # Weap UI
-原生微信小程序UI库
+
+- 原生微信小程序UI库
 
 ## 说明
-该小程序的工具均是基于原生小程序开发的，无需第三方学习成本
+
+- 该小程序的工具均是基于原生小程序开发的，无需第三方学习成本
 
 ## 截图
+
 <div style="width:100%" align="left"><img src="http://i1.fuimg.com/725616/217c1b1d352e95d9.jpg" alt="这是首页" width="400" height="auto" align="center" /></div><br/>
 <div style="width:100%" align="left"><img src="http://i1.fuimg.com/725616/07f2954aa0bad863.jpg" alt="这是首页" width="400" height="auto" align="center" /></div><br/>
-## 演示
+
 <!-- ![](http://i1.fuimg.com/725616/217c1b1d352e95d9.jpg)
 ![](http://i1.fuimg.com/725616/07f2954aa0bad863.jpg)
 ![](http://i1.fuimg.com/725616/888d0bab0423a604.jpg) -->
 
+## 演示
+
 ## 使用
+
+### 组件说明
+
+- 每个组件都是独立的，无互相依赖关系，如仅仅需要某个功能组件，只需要下载components里的某个组件，
 
 ### 引入组件
 
-自定义组件放在/components下,例如
+- 组件放在/components下,例如
+
 ```
 "usingComponents": {
     "popup":"/components/popup/popup"
