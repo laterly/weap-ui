@@ -1,0 +1,18 @@
+<!--components/notice-bar/notice-bar.wxml-->
+<view class="notice-bar-box" style="color:{{color}};background:{{background}};font-size:{{size}};">
+<view class="left-icon" wx:if="{{showIcon}}">
+  <image class="left-icon-image" src="{{leftIcon}}" mode="widthFix"></image>
+</view>
+<view class="flex1">
+<block wx:if="{{mode!='fade'}}">
+	<swiper class="fly-msg" vertical='{{true}}' interval="3000" autoplay="{{true}}" circular='{{true}}'>
+		<block wx:for='{{notice}}' wx:key="index">
+			<swiper-item class='fly-msg-item {{textAlign}}' catchtouchmove="preventDefault">{{item}}</swiper-item>
+		</block>
+	</swiper>
+	</block>
+	<block wx:if="{{mode=='fade'}}">
+	<view class="notice-tag {{isHideNotice?'hide':''}} {{textAlign}}" bindtransitionend='noticeAnimateEnd'>{{notice[noticeIndex]}}</view>
+	</block>
+</view>
+</view>

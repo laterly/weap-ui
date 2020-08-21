@@ -1,0 +1,57 @@
+/* components/notice-bar/notice-bar.wxss */
+.notice-bar-box {
+  font-size: 28rpx;
+  height: 80rpx;
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: 1rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  display: flex;
+  box-sizing: border-box;
+  padding-left: 30rpx;
+}
+
+.notice-bar-box .fly-msg {
+  flex: 1;
+  height: 80rpx;
+  white-space: nowrap;
+}
+
+.notice-bar-box .fly-msg .fly-msg-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.center{
+  justify-content: center;
+}
+.left{
+  justify-content: flex-start;
+}
+.left-icon{
+  margin-right: 20rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left-icon-image{
+  width: 35rpx;
+  height: auto;
+}
+.flex1{
+  flex:1;
+}
+
+.notice-tag {
+  transition: all .3s;
+  opacity: 1;
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  white-space: nowrap
+}
+
+.notice-tag.hide {
+  opacity: 0
+}

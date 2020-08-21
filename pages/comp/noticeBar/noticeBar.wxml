@@ -1,2 +1,17 @@
 <!--pages/comp/noticeBar/noticeBar.wxml-->
-<text>pages/comp/noticeBar/noticeBar.wxml</text>
+<view class="app-title">noticeBar 通告栏</view>
+<view class="app-sub-title">基础用法</view>
+<notice-bar notice="{{noticeArr}}"></notice-bar>
+<view class="app-sub-title">展示图标</view>
+<notice-bar notice="{{noticeArr}}" show-icon="{{true}}"></notice-bar>
+<view class="app-sub-title">淡入淡出动画</view>
+<notice-bar notice="{{noticeArr}}" show-icon="{{true}}" mode="fade"></notice-bar>
+<view class="app-sub-title">自定义样式</view>
+<notice-bar 
+notice="{{noticeArr}}" 
+color="#1989FA" 
+background="#ECF9FF"
+text-align="left"
+show-icon="{{true}}"
+left-icon="/images/example/notice.png"
+></notice-bar>
