@@ -1,15 +1,33 @@
 <!--search.wxml-->
+<block wx:if="{{!showAction}}">
 <view class="shop-search" catchtap="searchTap">
    <view class="shop-search-box">
-   <image src="./images/search-icon.png" class="shop-search-icon" mode="aspectFit"/>
+   <image src="./images/search-icon.png" class="shop-search-icon" mode="aspectFit"></image>
    <input 
    class="shop-input {{isSearchInput?'flex1':''}}" 
    type="text" 
    placeholder="{{placeholder}}" 
-   placeholder-class="placeholder-class" focus="{{isSearchInput}}" 
+   placeholder-class="placeholder-class" 
+   focus="{{isSearchInput}}" 
    bindblur="searchBlur"
    bindinput="searchValue"
    value="{{value}}"
    />
+    <image src="./images/search_ic_close.png" class="shop-close-icon" wx:if="{{value}}" mode="aspectFit" catchtap="closeTap"></image>
    </view>
 </view>
+</block>
+<block wx:if="{{showAction}}">
+<view class="search-bar">
+  <input value="{{value}}" 
+  focus="{{focus}}" 
+  placeholder="{{placeholder}}" 
+  placeholder-class="placeholder-class" 
+  bindinput="searchValue" 
+  bindconfirm="searchSubmit" />
+  <view class="clear_area" bindtap="clearSearch">
+    <image class="clear-search-value" src="./images/search_ic_close.png" wx:if="{{value}}" catchtap="closeTap"></image>
+  </view>
+  <view class="search-btn {{value?'red-btn':''}}" bindtap="searchSubmit">搜索</view>
+</view>
+</block>

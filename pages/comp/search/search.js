@@ -15,7 +15,17 @@ Page({
 
   },
   searchChange(e){
-   
+    wx.showToast({
+      title: e.detail,
+      icon:'none'
+    })
+  },
+  searchSubmit(e){
+    console.log('e',e);
+    wx.showToast({
+      title: e.detail,
+      icon:'none'
+    })
   },
   /**
    * 生命周期函数--监听页面初次渲染完成

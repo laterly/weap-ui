@@ -5,6 +5,7 @@
  * value  value值
  * focus 输入框获得焦点时触发
  * blur 输入框失去焦点时触发
+ * show-action 展示搜索按钮
  */
 Component({
   properties:{
@@ -18,6 +19,10 @@ Component({
 			observer(newValue) {
 				if(newValue) this.searchTap();
 			}
+    },
+    showAction:{
+      type:Boolean,
+      value:false
     }
   },
   /**
@@ -32,6 +37,15 @@ Component({
    * 组件的方法列表
    */
   methods: {
+    closeTap(){
+      this.setData({
+        value:""
+      })
+    },
+    searchSubmit(){
+      let value=this.data.value
+      this.triggerEvent('submit',value);
+    },
     //点击了搜索区域
     searchTap() {
       //聚焦搜索框
@@ -50,15 +64,15 @@ Component({
     },
     //实时监听value的变化
     searchValue(e) {
-      const { value } = e.detail;
+      let { value } = e.detail;
       this.setData({
         value
       })
+      console.log('value',value);
       if (this.timer) clearTimeout(this.timer)
       this.timer = setTimeout(() => { 
         this.triggerEvent("search", value);
       }, 600)
-      
     }
   },
 });

@@ -1,6 +1,6 @@
 <!--pages/comp/search/search.wxml-->
 <view class="app-title">Search 搜索</view>
-<view class="mt25">
+<view class="app-sub-title">基础用法</view>
   <search bind:search="searchChange"></search>
-</view>
-
+<view class="app-sub-title">搜索按钮</view>
+   <search bind:search="searchChange" bind:submit="searchSubmit" show-action="{{true}}"></search>
