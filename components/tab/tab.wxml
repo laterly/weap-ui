@@ -1,17 +1,53 @@
-<!-- tab.wxml -->
-<view class="tab-bar-box" wx:if="{{type=='defalut'}}">
-    <view class="tab-bar">
-        <view class="tab-item {{index==active?'active':''}}" wx:for='{{tabs}}' wx:key='index' data-index='{{index}}' bindtap="changeTab" >
-            <view class="tab-text {{index==active?'active':''}}">
-                {{item}}
-            </view>
-        </view>
-    </view>
+
+<block wx:if="{{!isSide&&tabs.length<6}}">
+<view class="tab-bar-box">
+    <view class="tab-list" wx:for="{{tabs}}" wx:key="index" data-cat-id="{{item.catId?item.catId:index}}" data-type="1" data-index="{{index}}" bindtap="toCategory">
+		<view style="{{index==current? 'font-weight: 800;color:'+activeColor : ''}}" class="tab-text">{{item}}
+		<view class="tab-line" style="background-color:{{activeColor}}" wx:if="{{index==current}}"></view>
+	</view>
+	</view>
 </view>
-<view class="classify-section" wx:if="{{type=='scroll'}}">
-    <scroll-view scroll-x="true" enable-flex="{{true}}" scroll-left="{{scrollLeft}}" scroll-with-animation="true" class="scroll-view">
-    <view class="classify-list" wx:for="{{tabs}}"  wx:key="index" data-index="{{index}}" bindtap="toCategory">
-        <view class="{{index === classifyActiveIndex? 'active' : ''}} tab-text">{{item}}</view>
-    </view>
-  </scroll-view>
+</block>
+<block wx:if="{{!isSide&&tabs.length>=6}}">
+<view class="classify-section1">
+   <scroll-view scroll-x="true" enable-flex="{{true}}" scroll-left="{{scrollLeft}}" scroll-with-animation="true" class="scroll-view">
+			<view class="classify-list" wx:for="{{tabs}}" wx:key="index" data-cat-id="{{item.catId?item.catId:index}}" data-type="1" data-index="{{index}}" bindtap="toCategory">
+				<view style="{{index==current? 'font-weight: 800;color:'+activeColor : ''}}" class="tab-text">
+					{{item}}
+					<view class="tab-line" style="background-color:{{activeColor}}" wx:if="{{index==current}}"></view>
+				</view>
+			</view>
+		</scroll-view>
+</view>
+</block>
+<view wx:if="{{isSide}}">
+<block wx:if="{{isOpen}}">
+	<view class="classify-section"  style="padding-right:{{isShowRight?'80rpx':'45rpx'}}">
+		<scroll-view scroll-x="true" enable-flex="{{true}}" scroll-left="{{scrollLeft}}" scroll-with-animation="true" class="scroll-view">
+			<view class="classify-list" wx:for="{{tabs}}" wx:key="index" data-cat-id="{{item.catId?item.catId:index}}" data-type="1" data-index="{{index}}" bindtap="toCategory">
+				<view style="{{index==current? 'font-weight: 800;color:'+activeColor : ''}}" class="tab-text">
+					{{item}}
+					<view class="tab-line" style="background-color:{{activeColor}}" wx:if="{{index==current}}"></view>
+				</view>
+			</view>
+		</scroll-view>
+		<view class="classify-right" catchtap="changeBar" wx:if='{{isShowRight}}'>
+			<image class="classify-menu" src="https://xwsq-img.wxatech.com/fanTan/staticImg/lahs/appindex/home_ic_arrow.png"></image>
+		</view>
+	</view>
+</block>
+<block wx:else>
+	<view class="tool-bar-box">
+		<view class="tool-bar-top">
+			<view class="tool-bar-left">全部分类</view>
+			<view class="tool-bar-right" catchtap="changeBar">
+				<image class="tool-bar-menu" src="https://xwsq-img.wxatech.com/fanTan/staticImg/lahs/appindex/home_ic_arrow.png"></image>
+			</view>
+		</view>
+		<view class="tool-bar-content">
+			<view class="tool-bar-btn" style="{{index==current? 'font-weight: 800;color:'+activeColor : ''}}" wx:for="{{tabs}}" wx:key="index" data-type="2" data-cat-id="{{index}}" data-index="{{index}}" bindtap="toCategory"> {{item}}</view>
+		</view>
+		<view class="tool-mask" catchtap="changeBar"></view>
+	</view>
+</block>
 </view>

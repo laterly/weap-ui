@@ -1,28 +1,32 @@
-/* tab.wxss */
-.tab-bar-box {
-    height: 88rpx;
-    margin: 5rpx auto 0;
+.tab-bar-box,
+.tab-right {
     display: flex;
-    box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.tab-bar-box {
+    height: 80rpx;
     width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
 }
 
 .tab-right {
     height: 100%;
-    display: flex;
     align-items: center;
     font-weight: 400;
     color: #999;
-    font-size: 32rpx;
-    padding-bottom: 8rpx;
-    box-sizing: border-box;
+    font-size: 28rpx;
+    padding-bottom: 8rpx
 }
 
 .tab-bar {
     background: #fff;
     display: flex;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-around
 }
 
 .tab-bar-box .tab-right {
@@ -30,84 +34,187 @@
     align-items: center;
     font-weight: 400;
     color: #999;
-    font-size: 32rpx;
+    font-size: 28rpx;
     padding-bottom: 8rpx;
-    box-sizing: border-box;
+    box-sizing: border-box
 }
 
 .select-icon {
-
     height: 28rpx;
     display: block;
     padding-top: 2rpx;
-    margin-right: 3rpx;
-
+    margin-right: 3rpx
 }
 
 .tab-bar .tab-item.active {
     color: #08c261;
-    font-weight: 700;
+    font-weight: 700
+}
+
+.classify-section,
+.tab-text {
+    box-sizing: border-box;
+    color: #999;
+    display: flex;
+    position: relative
+}
+
+.tab-bar .tab-item,
+.tab-text {
+    justify-content: center;
+    align-items: center;
+    font-size: 28rpx;
+    height: 100%
 }
 
 .tab-text {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    border-bottom: 8rpx solid #fff;
-    height: 100%;
-}
-
-.tab-text.active {
-    border-bottom: 8rpx solid #08c261;
-    color: #08c261;
-    font-weight: 700;
+    flex: 1
 }
 
 .tab-bar .tab-item {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 32rpx;
-    font-family: Microsoft YaHei;
-    font-weight: 400;
+    font-weight: 500;
     color: #999;
-    flex-direction: column;
-    height: 100%;
+    flex-direction: column
 }
-
+.classify-section1 {
+    width: 100%;
+    background: #fff;
+    display: flex;
+    box-sizing:border-box;
+    padding: 0 45rpx;
+}
 .classify-section {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30rpx;
-    box-sizing: border-box;
-    color: #999;
-    position: relative;
-    white-space: nowrap;
     background: #fff;
+    padding-left: 45rpx;
+    padding-right: 80rpx
+}
+
+.classify-right {
+    position: absolute;
+    width: 70rpx;
+    height: 80rpx;
+    right: 28rpx;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, .9);
+    justify-content: flex-end
+}
+
+.classify-menu {
+    width: 30rpx;
+    height: 30rpx;
+    object-fit: cover;
+    transform: rotate(90deg)
 }
 
 .scroll-view {
-    height: 88rpx;
+    height: 80rpx;
+    display: flex;
+    white-space: nowrap
 }
-
-.classify-section .classify-list {
-    display: inline-block;
-    overflow-x: scroll;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+.tab-list{
     height: 100%;
-    min-width: 160rpx;
     text-align: center;
     box-sizing: border-box;
+}
+.classify-list {
+    height: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    margin-right: 58rpx
+}
+.classify-list2 {
+    height: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+.classify-list:last-child {
+    padding-right: 20rpx
+}
+
+.tab-line {
+    position: absolute;
+    width: 100%;
+    height: 8rpx;
+    left: 0;
+    bottom: 0
+}
+
+.flex1 {
+    flex: 1
+}
+
+.tool-bar-top {
+    height: 80rpx;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff
+}
+
+.tool-bar-box {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 30rpx;
+    background-color: #fff
+}
+
+.tool-bar-left {
+    font-size: 28rpx;
+    font-weight: 400;
+    color: #999
+}
+
+.tool-bar-right {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20rpx
+}
+
+.tool-bar-menu {
+    width: 30rpx;
+    height: 30rpx;
+    object-fit: cover;
+    transform: rotate(-90deg)
+}
+
+.tool-bar-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20rpx
+}
+
+.tool-bar-btn {
+    padding: 12rpx 18rpx;
+    font-size: 26rpx;
+    font-weight: 500;
+    color: #999;
+    background: #f7f7f7;
+    border-radius: 5px;
+    margin-bottom: 17rpx;
+    margin-right: 20rpx
+}
+
+.tool-bar-num {
+    margin-left: 5rpx
+}
+
+.tool-mask {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    overflow-x: hidden;
+    z-index: 2;
+    left: 0
 }
 
 ::-webkit-scrollbar {
     width: 0;
     height: 0;
-    color: transparent;
+    color: transparent
 }

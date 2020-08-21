@@ -5,20 +5,39 @@ Page({
    * 页面的初始数据
    */
   data: {
-    tabs:['选项一',"选项二","选项三","选项四"],
-    active:1,
-    tabs2:['选项一',"选项二","选项三","选项四",'选项一',"选项二","选项三","选项四"],
-    active2:0
+    tabs2:['选项卡一',"选项卡二","选项卡三","选项卡四"],
+    tabs3:['选项卡一',"选项卡二","选项卡三","选项卡四","选项卡五","选项卡六"],
+    tabs:['选项卡一',"选项卡二","选项卡三","选项卡四",'选项卡五',"选项卡六","选项卡七","选项卡八"],
+    current:0,
+    current2:0,
+    current3:0,
   },
-  onChange(e){
+  onChangeCate(e){
     this.setData({
-      active:e.detail
+      current:e.detail
     })
+    wx.showToast({
+      title: `切换到选项 ${e.detail}`,
+      icon: 'none',
+    });
   },
-  onChange2(e){
+  onChangeCate2(e){
     this.setData({
-      active2:e.detail
+      current2:e.detail
     })
+    wx.showToast({
+      title: `切换到选项 ${e.detail}`,
+      icon: 'none',
+    });
+  },
+  onChangeCate3(e){
+    this.setData({
+      current3:e.detail
+    })
+    wx.showToast({
+      title: `切换到选项 ${e.detail}`,
+      icon: 'none',
+    });
   },
   /**
    * 生命周期函数--监听页面加载

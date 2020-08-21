@@ -1,0 +1,14 @@
+<view class="tab-bar-container fixed"  style="padding-bottom: {{ifIphoneX?'20rpx':''}};">
+  <block  wx:for='{{tabs}}' wx:key='index'>
+    <view class="tab-item {{index==current?'active':''}}" bindtap='pathTo'
+      data-item='{{item}}' data-index='{{index}}'>
+      <view class="rel">
+        <image wx:if='{{index==current}}' class="tab-icon" src="{{item.selectedIconPath}}" />
+        <image wx:else class="tab-icon" src="{{item.iconPath}}" />
+      	<view class="icon-tag" wx:if="{{item.info}}">{{item.info}}</view>
+				<view class="icon-tag-dot" wx:elif="{{item.dot}}"></view>
+      </view>
+      <text class="tab-text" style="{{index==current?'color:'+item.activeColor+';':''}}">{{item.text}}</text>
+    </view>
+  </block>
+</view>

@@ -1,8 +1,8 @@
 <!--tab.wxml-->
 <view class="app-title">Tab 选项卡</view>
-<view class="tab">
-  <tab tabs="{{tabs}}" bind:onChange="onChange" active="{{active}}"></tab>
-</view>
-<view class="tab">
-  <tab tabs="{{tabs2}}" type="scroll" bind:onChange="onChange2" active="{{active2}}"></tab>
-</view>
+<view class="app-sub-title">基础用法</view>
+<tab tabs="{{tabs2}}" current="{{current2}}" bind:onChange="onChangeCate2" active-color="#08C261"></tab>
+<view class="app-sub-title">超出5个滚动</view>
+<tab tabs="{{tabs3}}" current="{{current3}}" bind:onChange="onChangeCate3" active-color="#08C261"></tab>
+<view class="app-sub-title">选项侧边栏</view>
+<tab tabs="{{tabs}}" isSide="{{true}}" current="{{current}}" bind:onChange="onChangeCate" active-color="#08C261"></tab>

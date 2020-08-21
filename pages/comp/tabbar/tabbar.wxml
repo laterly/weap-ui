@@ -1,2 +1,3 @@
 <!--pages/comp/tabbar/tabbar.wxml-->
-<text>pages/comp/tabbar/tabbar.wxml</text>
+<view class="app-title">Tabbar 标签栏</view>
+<tabbar current='{{current}}' tabs="{{tabs}}" bind:click="clickTab"></tabbar>
