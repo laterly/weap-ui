@@ -7,7 +7,6 @@
 ## 截图
 <div style="width:100%" align="left"><img src="http://i1.fuimg.com/725616/217c1b1d352e95d9.jpg" alt="这是首页" width="500" height="auto" align="center" /></div><br/>
 <div style="width:100%" align="left"><img src="http://i1.fuimg.com/725616/07f2954aa0bad863.jpg" alt="这是首页" width="500" height="auto" align="center" /></div><br/>
-<div style="width:100%" align="left"><img src="http://i1.fuimg.com/725616/888d0bab0423a604.jpg" alt="这是首页" width="500" height="auto" align="center" /></div><br/>
 ## 演示
 <!-- ![](http://i1.fuimg.com/725616/217c1b1d352e95d9.jpg)
 ![](http://i1.fuimg.com/725616/07f2954aa0bad863.jpg)
