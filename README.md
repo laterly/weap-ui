@@ -8,8 +8,8 @@
 
 ## 截图
 
-<div style="width:100%" align="left"><img src="http://i1.fuimg.com/725616/217c1b1d352e95d9.jpg" alt="这是首页" width="400" height="auto" align="center" /></div><br/>
-<div style="width:100%" align="left"><img src="http://i1.fuimg.com/725616/07f2954aa0bad863.jpg" alt="这是首页" width="400" height="auto" align="center" /></div><br/>
+<div style="width:100%" align="left"><img src="http://chuantu.xyz/t6/741/1613893030x1822611280.jpg" alt="这是首页" width="400" height="auto" align="center" /></div><br/>
+<div style="width:100%" align="left"><img src="http://chuantu.xyz/t6/741/1613893064x1822611280.jpg" alt="这是首页" width="400" height="auto" align="center" /></div><br/>
 
 <!-- ![](http://i1.fuimg.com/725616/217c1b1d352e95d9.jpg)
 ![](http://i1.fuimg.com/725616/07f2954aa0bad863.jpg)
@@ -19,7 +19,7 @@
 
 ## 使用
 
-![](http://i1.fuimg.com/725616/610639633f19049c.jpg)
+![](http://chuantu.xyz/t6/741/1613893211x1822611280.jpg)
 
 ### 组件说明
 
