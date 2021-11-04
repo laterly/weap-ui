@@ -6,20 +6,9 @@
 
 - 该小程序的工具均是基于原生小程序开发的，无需第三方学习成本
 
-## 截图
-
-<div style="width:100%" align="left"><img src="http://chuantu.xyz/t6/741/1613893030x1822611280.jpg" alt="这是首页" width="400" height="auto" align="center" /></div><br/>
-<div style="width:100%" align="left"><img src="http://chuantu.xyz/t6/741/1613893064x1822611280.jpg" alt="这是首页" width="400" height="auto" align="center" /></div><br/>
-
-<!-- ![](http://i1.fuimg.com/725616/217c1b1d352e95d9.jpg)
-![](http://i1.fuimg.com/725616/07f2954aa0bad863.jpg)
-![](http://i1.fuimg.com/725616/888d0bab0423a604.jpg) -->
-
-
-
 ## 使用
 
-![](http://chuantu.xyz/t6/741/1613893211x1822611280.jpg)
+![](https://github.com/laterly/weap-ui/blob/master/screenshot.jpg)
 
 ### 组件说明
 
