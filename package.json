@@ -1,6 +1,6 @@
 {
   "name": "weap-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "- 原生微信小程序UI库",
   "main": "app.js",
   "scripts": {
