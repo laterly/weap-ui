@@ -1,0 +1,20 @@
+{
+  "name": "weap-ui",
+  "version": "1.0.0",
+  "description": "- 原生微信小程序UI库",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "miniprogram":"components",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laterly/weap-ui.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laterly/weap-ui/issues"
+  },
+  "homepage": "https://github.com/laterly/weap-ui#readme"
+}
